@@ -1,0 +1,2613 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lumen</title>
+    <style>
+         :root {
+            /* Subjects */
+            --color-lpo-d1: #C51A1B;
+            --color-lpo-d2: #981711;
+            --color-lpo-d3: #E59798;
+            --color-lpo-d4: #F7DCDD;
+            --color-prod-txt-d1: #0F83A6;
+            --color-prod-txt-d2: #005E7C;
+            --color-prod-txt-d3: #92C7D7;
+            --color-prod-txt-d1: #DBECF2;
+            --color-ing-d1: #069891;
+            --color-ing-d2: #015F5B;
+            --color-ing-d3: #069891;
+            --color-ing-d4: #069891;
+            --color-ing-a1: #C8D300;
+            --color-ing-a2: #84A214;
+            --color-ing-a3: #ECF0A6;
+            --color-ing-a4: #F7F9D9;
+            --color-artes-d1: #64428C;
+            --color-artes-d2: #3F1F71;
+            --color-artes-d3: #B9A9CB;
+            --color-artes-d4: #E8E3EE;
+            --color-mat-d1: #1961AC;
+            --color-mat-d2: #033878;
+            --color-mat-d3: #97B7D9;
+            --color-mat-d4: #DCE7F3;
+            --color-bio-d1: #45973D;
+            --color-bio-d2: #306E2B;
+            --color-bio-d3: #ABD0A7;
+            --color-bio-d4: #E3F0E2;
+            --color-quimica-d1: #B80071;
+            --color-quimica-d2: #850343;
+            --color-quimica-d3: #DF8CBF;
+            --color-quimica-d4: #F5D9EA;
+            --color-soc-d1: #C71553;
+            --color-soc-d2: #8B1038;
+            --color-soc-d3: #E695B1;
+            --color-soc-d4: #F7DCE5;
+            --color-soc-a1: #8CCAAE;
+            --color-soc-a2: #208F6D;
+            --color-soc-a3: #D7EDE3;
+            --color-soc-a4: #EEF7F3;
+            --color-fil-d1: #536DA7;
+            --color-fil-d2: #3A4C74;
+            --color-fil-d3: #B1BDD7;
+            --color-fil-d4: #E5E9F2;
+            --color-his-d1: #951B81;
+            --color-his-d2: #6A0F5A;
+            --color-his-d3: #CF98C6;
+            --color-his-d4: #EFDDEC;
+            --color-his-a1: #8CCAAE;
+            --color-his-a2: #208F6D;
+            --color-his-a3: #D7EDE3;
+            --color-his-a4: #EEF7F3;
+            --color-geo-d1: #D85509;
+            --color-geo-d2: #9E2705;
+            --color-geo-d3: #EDB290;
+            --color-geo-d4: #F9E5DA;
+            --color-geo-a1: #8CCAAE;
+            --color-geo-a2: #208F6D;
+            --color-geo-a3: #D7EDE3;
+            --color-geo-a4: #EEF7F3;
+            --color-fis-d1: #00909B;
+            --color-fis-d2: #00666D;
+            --color-fis-d3: #8CCDD2;
+            --color-fis-d4: #D9EEF0;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        html,
+        .body-book {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            font-family: 'proxima_nova_regular', sans-serif;
+            font-size: 16px;
+            background: url("https://livro-digital-development.p4ed.com/assets/icons/lumen/LUMEN_QUI.svg") no-repeat center center fixed;
+            background-size: cover;
+        }
+        
+        @media (max-width: 1080px) {
+            html {
+                font-size: 93.75%;
+                /* 15px */
+            }
+        }
+        
+        @media (max-width: 900px) {
+            html {
+                font-size: 87.5%;
+                /* 14px */
+            }
+        }
+        
+        @media (max-width: 900px) {
+            .main {
+                max-width: 692px;
+                width: 692px;
+                height: 100%;
+                background-color: white;
+                display: flex;
+                flex-direction: column;
+                height: 100%;
+            }
+            .img-md {
+                margin-top: 1rem;
+                width: 100%;
+            }
+            .img-md-exercicio {
+                width: 100%;
+                align-items: center;
+                margin-top: 1rem;
+            }
+            .titulo-cap-section {
+                display: flex;
+                position: absolute;
+                top: 52px;
+                left: 26px;
+                z-index: 10;
+                width: 636px;
+            }
+            .text-content-area {
+                max-width: 100%;
+                width: 100%;
+                position: relative;
+                padding: 0 52px;
+            }
+            .double-columned-content {
+                max-width: 100%;
+                width: 100%;
+                gap: 24px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 0;
+            }
+        }
+        
+        @media (min-width: 901px) {
+            .main {
+                max-width: 876px;
+                width: 876px;
+                height: 100%;
+                background-color: white;
+                display: flex;
+                flex-direction: column;
+                height: 100%;
+            }
+            .titulo-cap-section {
+                display: flex;
+                position: absolute;
+                top: 52px;
+                left: 68px;
+                z-index: 10;
+                width: 740px;
+            }
+            .ml-25 {
+                margin-left: 25%;
+            }
+            .img-md {
+                margin-top: 1rem;
+                width: 100%;
+            }
+            .img-md-exercicio {
+                min-width: 391px;
+                align-items: center;
+                margin-top: 1rem;
+            }
+            .text-content-area {
+                max-width: 100%;
+                width: 100%;
+                position: relative;
+                padding: 0 68px;
+            }
+            .double-columned-content {
+                max-width: 100%;
+                width: 100%;
+                gap: 24px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 0;
+            }
+        }
+        
+        nav,
+        aside {
+            max-width: 36px;
+            width: 36px;
+            min-height: 100%;
+        }
+        
+        .section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .content-fullwidth-area {
+            max-width: 100%;
+            width: 100%;
+            position: relative;
+        }
+        
+        .general-text {
+            font-size: 18px;
+            margin: 1rem 0;
+            font-family: 'proxima_novalight';
+        }
+        
+        .exercicio-text b {
+            font-family: 'proxima_novabold';
+        }
+        
+        .double-columned-content-left {
+            width: 40%;
+            display: flex;
+            flex-flow: column;
+        }
+        
+        .double-columned-content-right {
+            width: 60%;
+            display: flex;
+            flex-flow: column;
+        }
+        
+        button {
+            cursor: pointer;
+            border: none;
+            background: none;
+        }
+        
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+        /* Fonts */
+        
+        @font-face {
+            font-family: 'theserif_extralight';
+            src: url('./assets/fonts/TheSerif/TheSerif-HP2ExLig.otf') format('opentype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'theserif_semibold';
+            src: url('./assets/fonts/TheSerif/theserif-semibold-plain.ttf') format('truetype');
+            font-weight: normal;
+            font-style: italic;
+        }
+        
+        @font-face {
+            font-family: 'proxima_novablack_italic';
+            src: url('./assets/fonts/ProximaNova/proxima_nova_black_it-webfont.woff2') format('woff2'), url('./assets/fonts/ProximaNova/proxima_nova_black_it-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'proxima_novablack';
+            src: url('./assets/fonts/ProximaNova/proxima_nova_black-webfont.woff2') format('woff2'), url('./assets/fonts/ProximaNova/proxima_nova_black-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'proxima_novabold_italic';
+            src: url('./assets/fonts/ProximaNova/proxima_nova_bold_it-webfont.woff2') format('woff2'), url('./assets/fonts/ProximaNova/proxima_nova_bold_it-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'proxima_novabold';
+            src: url('./assets/fonts/ProximaNova/proxima_nova_bold-webfont.woff2') format('woff2'), url('./assets/fonts/ProximaNova/proxima_nova_bold-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'proxima_novalight_italic';
+            src: url('./assets/fonts/ProximaNova/proxima_nova_light_it-webfont.woff2') format('woff2'), url('./assets/fonts/ProximaNova/proxima_nova_light_it-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'proxima_novalight';
+            src: url('./assets/fonts/ProximaNova/proxima_nova_light-webfont.woff2') format('woff2'), url('./assets/fonts/ProximaNova/proxima_nova_light-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'proxima_novaregular_italic';
+            src: url('./assets/fonts/ProximaNova/proxima_nova_reg_it-webfont.woff2') format('woff2'), url('./assets/fonts/ProximaNova/proxima_nova_reg_it-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'proxima_novaregular';
+            src: url('./assets/fonts/ProximaNova/proxima_nova_reg-webfont.woff2') format('woff2'), url('./assets/fonts/ProximaNova/proxima_nova_reg-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'Prelo_regular';
+            src: url('./assets/fonts/Prelo/Prelo-Medium.woff2') format('woff2'), url('./assets/fonts/Prelo/Prelo-Medium.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'Prelo_bold';
+            src: url('./assets/fonts/Prelo/Prelo-Bold.woff2') format('woff2'), url('./assets/fonts/Prelo/Prelo-Bold.woff') format('woff');
+            font-weight: bold;
+            font-style: bold;
+        }
+        
+        @font-face {
+            font-family: 'Prelo_light';
+            src: url('./assets/fonts/Prelo/Prelo-ExtraLight.woff2') format('woff2'), url('./assets/fonts/Prelo/Prelo-ExtraLight.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'Prelo_extra_bold';
+            src: url('./assets/fonts/Prelo/Prelo-ExtraBold.woff2') format('woff2'), url('./assets/fonts/Prelo/Prelo-ExtraBold.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'Prelo_black';
+            src: url('./assets/fonts/Prelo/Prelo-Black.woff2') format('woff2'), url('./assets/fonts/Prelo/Prelo-Black.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        /* Style*/
+        
+        .relative {}
+        
+        .img-banner {
+            width: 100%;
+            margin-top: 2rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .titulo21 {
+            font-size: 23px;
+        }
+        
+        .tabelasimple {
+            margin-left: 222px;
+        }
+        
+        .img-full-width {
+            width: 100%;
+            margin-bottom: 0.5rem;
+        }
+        
+        .img-md {
+            max-width: 400px;
+            margin: 0 auto;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+        
+        .max-width-legend {
+            max-width: 300px;
+            margin-left: 68px;
+        }
+        
+        .img-md-200 {
+            max-width: 200px;
+            margin: 0 auto;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+        
+        .img-md-banner {
+            max-width: 400px;
+            display: block;
+            margin-bottom: 0.5rem;
+            margin-top: -20rem;
+            margin-left: auto;
+            margin-right: -5rem;
+        }
+        
+        .img-md-1 {
+            max-width: 500px;
+            margin: 0 auto;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+        
+        .mb-5px {
+            margin-bottom: 5px;
+        }
+        
+        .superacao,
+        .leitura-doc {
+            font-family: "Prelo_extra_bold";
+            font-size: 1.25rem;
+            position: relative;
+            z-index: 0;
+            margin-top: 2rem;
+        }
+        
+        .superacao p,
+        .leitura-doc p {
+            background-color: var(--color-ing-a3);
+            padding: 0.5rem 1.5rem;
+            color: var(--color-ing-a2);
+            width: fit-content;
+            border: 3px solid var(--color-quimica-d1);
+        }
+        
+        .superacao::before,
+        .leitura-doc::before {
+            content: "";
+            height: 3px;
+            width: 100%;
+            left: 0;
+            top: 50%;
+            background-color: var(--color-quimica-d1);
+            position: absolute;
+            z-index: -1;
+        }
+        
+        .leitura-doc p {
+            background-color: var(--color-quimica-d2);
+            border: 3px solid var(--color-quimica-d1);
+            color: #fff;
+        }
+        
+        .leitura-doc::before {
+            background-color: var(--color-quimica-d1);
+        }
+        
+        .texto-citacao {
+            width: min-content;
+            white-space: nowrap;
+            margin-top: 3rem;
+            background: #c8242b;
+            font-family: Prelo_extra_bold;
+            padding: 0.4rem 1rem;
+            font-size: 19px;
+            color: #ffffff;
+        }
+        
+        .img-subtitle {
+            text-align: left;
+            font-size: 1rem;
+            font-weight: 300;
+            font-family: "proxima_novalight", sans-serif;
+            letter-spacing: 0px;
+            color: #000000;
+            margin-bottom: 0.5rem;
+            max-width: 740px;
+        }
+        
+        .img-credit {
+            text-align: left;
+            font-size: 0.625rem;
+            color: #71706f;
+            letter-spacing: 0px;
+            font-weight: 300;
+            margin-bottom: 2rem;
+        }
+        
+        .font-size-18 {
+            font-size: 18px !important;
+        }
+        
+        .bullet-list-section {
+            border: 2px solid var(--color-quimica-d1);
+            padding-left: 1rem;
+            padding-right: 1rem;
+            margin: 2rem 0;
+        }
+        
+        .bullet-list {
+            margin-left: 1rem;
+        }
+        
+        .boxe-06-02-cie-hab {
+            width: 90%;
+            text-align: left;
+            line-height: 2;
+            display: flex;
+            align-items: flex-start;
+            gap: 0.5rem;
+            margin-top: 1rem;
+        }
+        
+        .img-group {
+            position: relative;
+            display: flex;
+        }
+        
+        .img-group1 {
+            width: 50%;
+        }
+        
+        .desin {
+            width: 50%;
+            height: 50%;
+            margin-left: 16%;
+        }
+        
+        .mantain {
+            width: 45%;
+            height: 50%;
+            margin-left: 37%;
+        }
+        
+        .wear {
+            width: 40%;
+            height: 40%;
+            margin-left: 20%;
+        }
+        
+        .hand {
+            width: 40%;
+            height: 40%;
+            margin-left: 20%;
+        }
+        
+        .wash {
+            width: 40%;
+            height: 40%;
+            margin-left: 40%;
+        }
+        
+        .avoid {
+            width: 40%;
+            height: 40%;
+            margin-left: 40%;
+        }
+        
+        .primeiraimg {
+            width: 100%;
+            top: 0;
+            left: 0;
+            position: relative;
+            font-size: 9px;
+        }
+        
+        .segundaimg {
+            width: 100%;
+            right: 0;
+            top: 0;
+            position: relative;
+            font-size: 9px;
+        }
+        
+        .terceiraImg {
+            width: 100%;
+            left: 0;
+            bottom: 0;
+            position: relative;
+            font-size: 9px;
+        }
+        
+        .quartaimg {
+            width: 100%;
+            right: 0;
+            bottom: 0;
+            position: relative;
+            font-size: 9px;
+        }
+        
+        .boxe-06-02-icon {
+            width: 24px;
+        }
+        
+        .boxe-06-texto {
+            background-color: var(--color-quimica-d1);
+            font-weight: bold;
+            color: #fff;
+            padding: 0.25rem 0.5rem;
+        }
+        /* boxe_04 */
+        
+        .boxe-06-04-cie {
+            text-align: left;
+            line-height: 2;
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+            padding: left px;
+            border: 3px solid var(--color-quimica-d1);
+        }
+        
+        .boxe-06-04-cie>header {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background: transparent linear-gradient(90deg, var(--color-quimica-d1) 0%, #bd8432 100%) 0% 0% no-repeat padding-box;
+            border-bottom: 3px solid var(--color-quimica-d1);
+        }
+        
+        .boxe-06-04-cie>header img {
+            width: 32px;
+            box-sizing: content-box;
+        }
+        
+        .boxe-06-04-cie>header strong {
+            font-family: Prelo_extra_bold;
+            font-size: 19px;
+            color: #ffffff;
+        }
+        
+        .boxe-06-04-cie>section {
+            padding: 16px;
+            font-size: 18px;
+            background: #fef2e3;
+            font-weight: 300;
+            font-family: proxima_novalight, sans-serif;
+        }
+        
+        .boxe-06-04-cie>section {
+            line-height: 21px;
+        }
+        
+        .boxe-04-titulo1 {
+            font-family: Prelo_extra_bold, sans-serif;
+            font-size: 20px;
+            color: #f9a64a;
+            margin-bottom: 1rem;
+        }
+        
+        .boxe-04-titulo2 {
+            font-family: Prelo_extra_bold, sans-serif;
+            font-size: 20px;
+            color: #57585a;
+        }
+        
+        .boxe-04-list {
+            padding: 1rem 0;
+            margin-left: 16px;
+        }
+        
+        .boxe-04-list li {
+            line-height: 21px;
+        }
+        
+        .boxe-04-footer {
+            font-size: 15px;
+        }
+        /* boxe_03 */
+        
+        .boxe-06-03-cie {
+            text-align: left;
+            line-height: 2rem;
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+        }
+        
+        .boxe-06-03-cie>header {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--color-quimica-d2);
+            border: 3px solid var(--color-quimica-d1);
+            transform: translateY(50%);
+            width: 140px;
+        }
+        
+        .praticar {
+            text-align: start;
+            font-weight: bold;
+            color: var(--color-quimica-d1);
+            font-size: 22px;
+            font-style: italic;
+        }
+        
+        .boxe-06-03-cie>header img {
+            width: 32px;
+            box-sizing: content-box;
+        }
+        
+        .boxe-06-03-cie>header strong {
+            font-family: Prelo_extra_bold;
+            font-size: 19px;
+            color: #ffffff;
+        }
+        
+        .boxe-06-03-cie>section {
+            padding: 38px 16px 16px 16px;
+            font-size: 18px;
+            font-weight: 300;
+            border: 3px solid var(--color-quimica-d1);
+            font-family: proxima_novalight, sans-serif;
+        }
+        
+        .boxe-06-03-cie>section {
+            line-height: 21px;
+        }
+        
+        .boxe-03-titulo1 {
+            font-family: Prelo_extra_bold, sans-serif;
+            font-size: 20px;
+            color: var(--color-quimica-d1);
+            margin-bottom: 1rem;
+        }
+        
+        .boxe-03-titulo2 {
+            font-family: Prelo_extra_bold, sans-serif;
+            font-size: 20px;
+            color: #57585a;
+        }
+        
+        .boxe-03-list {
+            padding: 1rem 0;
+            margin-left: 16px;
+        }
+        
+        .boxe-03-list li {
+            line-height: 21px;
+        }
+        
+        .boxe-03-footer {
+            font-size: 15px;
+        }
+        /* boxe_02 */
+        
+        .boxe-cap-4-39 {
+            font-family: "proxima_novalight", sans-serif;
+            font-size: 16px;
+            color: #71706f;
+        }
+        
+        .boxe-06-02-cie {
+            text-align: left;
+            line-height: 2;
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .boxe-06-02-cie>header {
+            width: 96px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--color-quimica-d2);
+            border: 3px solid var(--color-quimica-d1);
+            transform: translateY(50%);
+        }
+        
+        .boxe-06-02-cie>header img {
+            width: 32px;
+            box-sizing: content-box;
+        }
+        
+        .boxe-06-02-cie>header strong {
+            font-family: Prelo_extra_bold;
+            font-size: 19px;
+            color: #ffffff;
+        }
+        
+        .boxe-06-02-cie>section {
+            padding: 38px 16px 16px 16px;
+            font-size: 18px;
+            font-weight: 300;
+            border: 3px solid var(--color-quimica-d1);
+            font-family: proxima_novalight, sans-serif;
+        }
+        
+        .boxe-06-02-cie>section {
+            line-height: 21px;
+        }
+        
+        .boxe-02-titulo1 {
+            font-family: Prelo_extra_bold, sans-serif;
+            font-size: 24px;
+            color: #57585a;
+            margin-bottom: 1rem;
+        }
+        
+        .boxe-02-titulo2 {
+            font-family: Prelo_extra_bold, sans-serif;
+            font-size: 18px;
+            color: #57585a;
+        }
+        
+        .boxe-02-list {
+            padding: 1rem 0;
+            margin-left: 16px;
+        }
+        
+        .boxe-02-list li {
+            line-height: 21px;
+        }
+        
+        .boxe-02-footer {
+            font-size: 15px;
+        }
+        
+        .secao-4-content {
+            display: flex;
+        }
+        
+        .secao-4 {
+            font-family: "Prelo_extra_bold", sans-serif;
+            padding: 0.5rem 1rem;
+            color: #bd8432;
+            font-size: 1.25rem;
+            text-transform: uppercase;
+            font-weight: 300;
+            border: 3px solid var(--color-quimica-d1);
+            background-color: #fce1bc;
+            margin-top: 3rem;
+            z-index: 1;
+        }
+        
+        .line-secao-4 {
+            content: "";
+            width: 100%;
+            height: 3px;
+            background: var(--color-quimica-d1);
+            margin-top: 4.5rem;
+            z-index: 0;
+        }
+        
+        .response-margin-bottom {
+            margin-bottom: 5rem;
+        }
+        
+        .response-margin-left {
+            margin-left: 2rem;
+        }
+        
+        .text-align-right {
+            display: block;
+            text-align: right;
+        }
+        
+        .text-available {
+            display: block;
+            text-align: right;
+            font-size: 13px;
+            margin: 5px;
+        }
+        
+        .titulo1 {
+            text-align: left;
+            font-size: 2rem;
+            font-weight: 800;
+            color: var(--color-quimica-d1);
+            font-family: "Prelo_extra_bold", sans-serif;
+        }
+        
+        .titulo2 {
+            margin-top: 3rem;
+            text-align: left;
+            font-size: 1.625rem;
+            font-weight: 800;
+            color: var(--color-quimica-d3);
+            font-family: "Prelo_extra_bold", sans-serif;
+        }
+        
+        .list-style-none {
+            list-style: none;
+            margin-left: 0;
+        }
+        
+        .chapter-description {
+            font-size: 18px;
+            font-family: "proxima_novaregular", sans-serif;
+            transform: translateY(-5%);
+        }
+        
+        .flex-column {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .align-horizontal {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .flex-justify-evenly {
+            justify-content: space-evenly;
+        }
+        
+        .cap-section {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            justify-content: center;
+            align-items: center;
+            background-color: var(--color-quimica-d1);
+            padding: 8px 8px;
+        }
+        
+        .width-unique-img {
+            width: 300px;
+        }
+        
+        .titulo-cap-background {
+            background: linear-gradient(90deg, var(--color-quimica-d1) 0%, hsla(177, 92%, 31%, 0.507) 100%);
+            display: flex;
+            align-items: center;
+            flex: 1;
+            padding-left: 16px;
+        }
+        
+        .título-cap {
+            font-family: "Prelo_extra_bold", sans-serif;
+            text-align: left;
+            font-size: 2.5rem;
+            font-weight: 800;
+            letter-spacing: 1.1px;
+            color: white;
+            width: 75%;
+            line-height: 1.2;
+        }
+        
+        .cap-texto {
+            font-family: "Prelo_light", sans-serif;
+            text-transform: uppercase;
+            color: #fff;
+            font-weight: 600;
+        }
+        
+        .cap-number {
+            font-size: 4rem;
+            font-weight: 800;
+            color: #fff;
+        }
+        
+        .titulo1-section {
+            display: flex;
+            gap: 8px;
+            margin-top: 3rem;
+            align-items: center;
+        }
+        
+        .titulo1-section img {
+            width: 36px;
+        }
+        
+        .titulo3 {
+            margin-top: 3rem;
+            text-align: left;
+            font-size: 1.425rem;
+            font-weight: 800;
+            color: #57585a;
+            font-family: "Prelo_bold", sans-serif;
+        }
+        
+        .gloss-link {
+            color: #B80071;
+            font-weight: bold;
+            position: relative;
+            cursor: pointer;
+            display: inline-block;
+        }
+        
+        .gloss-tooltip {
+            background-color: white;
+            border: 3px solid #B80071;
+            border-radius: 4px;
+            max-width: 550px;
+            padding: 0.5rem;
+            transform: translate(10%, -186px);
+            position: absolute;
+            z-index: 10;
+        }
+        
+        .gloss-tooltip::after {
+            content: "";
+            width: 0;
+            height: 0;
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+            border-top: 10px solid #B80071;
+            position: absolute;
+            transform: translate(180px, 11px);
+        }
+        
+        .gloss-tooltip:focus .gloss-tooltip {
+            opacity: 1;
+        }
+        
+        .img-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 280px;
+        }
+        
+        .img-credit-exercicio {
+            min-width: 400px;
+            text-align: center;
+            font-size: 0.625rem;
+            color: #71706f;
+            letter-spacing: 0px;
+            font-weight: 300;
+            margin-bottom: 1rem;
+        }
+        
+        .img-group-section {
+            display: flex;
+            gap: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .width-05 {
+            width: 50%;
+            margin: 0 auto;
+        }
+        
+        .mt-2rem {
+            margin-top: 2rem;
+        }
+        
+        .table-1-question-7 {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        .table-1-question-7>thead>tr>th {
+            text-transform: uppercase;
+            height: min-content;
+            background: var(--color-quimica-d1);
+        }
+        
+        .table-1-question-7>tbody>tr>td {
+            text-align: center;
+            height: min-content;
+            padding: 2px;
+            background: white;
+        }
+        
+        .table-1-question-7>tbody>tr>td:first-child {
+            font-weight: normal;
+        }
+        
+        .table-1-question-7>tfoot>tr>td {
+            border: none;
+            background: white;
+            height: min-content;
+            font-weight: 500;
+            font-size: 13px;
+            text-align: right;
+        }
+        
+        .tabela-gravata {
+            width: 100%;
+            border-collapse: collapse;
+            color: #2b2e34;
+        }
+        
+        th,
+        td {
+            border: 1px solid var(--color-quimica-d1);
+            padding: 8px;
+            height: 60px;
+        }
+        
+        tbody tr td:first-child {
+            font-weight: bold;
+            text-align: center;
+            font-family: "proxima_novaregular";
+        }
+        
+        th {
+            color: white;
+            padding: 8px;
+        }
+        
+        tr.subtitle>th {
+            color: var(--color-quimica-d1) !important;
+            background: var(--color-quimica-d4) !important;
+            text-transform: none !important;
+        }
+        
+        th.subtitle,
+        td.subtitle {
+            color: var(--color-quimica-d1) !important;
+            background: var(--color-quimica-d4) !important;
+            text-transform: none !important;
+        }
+        
+        .tg-0lax {
+            text-align: center;
+            font-family: "proxima_novalight";
+        }
+        
+        .boxe-mt {
+            background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(252, 225, 188, 1) 100%);
+            margin: 2rem 0;
+        }
+        
+        .flex-icon {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .boxe-mt-header {
+            display: flex;
+            align-items: center;
+            padding: 1.5rem 1rem 0 1rem;
+            justify-content: space-between;
+            color: #bd8432;
+            font-size: 1.25rem;
+            font-weight: bold;
+            font-family: "Prelo", sans-serif;
+        }
+        
+        .boxe-mt-body {
+            padding: 0 1rem 1rem 1rem;
+        }
+        
+        .icon-boxe {
+            width: 32px;
+        }
+        
+        .text-center {
+            text-align: center;
+        }
+        
+        .questao-resolvida {
+            background-color: #ececec;
+            padding: 3rem 1rem 1rem 1rem;
+            position: relative;
+            margin-top: 3rem;
+        }
+        
+        .margin-questao-resolvida {
+            margin-top: 4rem;
+        }
+        
+        .double-columned-content {
+            padding: 0;
+        }
+        
+        .titulo4 {
+            margin-top: 3rem;
+            font-size: 1.25rem;
+            font-weight: 800;
+            color: #000000;
+            font-family: "Prelo_bold", sans-serif;
+        }
+        
+        .questao-resolvida::before {
+            content: " ";
+            width: 200px;
+        }
+        
+        .quote {
+            text-align: right;
+            font-size: 1rem;
+            margin-top: 1rem;
+            margin-left: 1.5rem;
+            font-family: "proxima_novalight", sans-serif;
+        }
+        
+        .quote-source {
+            text-align: right;
+            font-family: "proxima_novalight", sans-serif;
+            font-size: 0.625rem;
+            color: #71706f;
+            letter-spacing: 0px;
+            margin-bottom: 2rem;
+        }
+        
+        .poem {
+            margin: 1rem 0;
+            margin-left: 1.5rem;
+            font-size: 1.05rem;
+            font-family: "proxima_novalight", sans-serif;
+        }
+        
+        .align-horizontal {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .fake-input-model {
+            padding: 5px;
+            background: white;
+            display: inline-block;
+            height: 35px;
+            width: 71px;
+            border: 1px solid gray;
+            border-radius: 6px;
+        }
+        
+        .ml {
+            margin-left: 1.5rem;
+        }
+        /* .questao-resolvida p {
+margin: 0;
+} */
+        
+        .questao-resolvida .double-columned-content {
+            align-items: initial;
+        }
+        
+        .questao-alternativas {
+            margin-left: 3rem;
+            font-size: 1.125rem;
+        }
+        
+        .questao-alternativas li::marker {
+            color: black;
+            font-size: 1.125rem;
+            font-family: "proxima_novabold";
+        }
+        
+        .questao-alternativas li {
+            font-family: "proxima_novalight";
+            padding: 4px 0;
+            color: #000;
+        }
+        
+        .resposta-list {
+            counter-reset: list;
+            list-style: decimal;
+            list-style: none;
+            position: relative;
+        }
+        
+        .resposta-list li:before {
+            font-family: "proxima_novabold";
+            font-size: 18px;
+            font-weight: 800;
+            counter-increment: list;
+            content: counter(list, lower-alpha) ") ";
+            position: absolute;
+            left: -1.4em;
+        }
+        
+        .resposta p {
+            color: #707070;
+            font-size: 1.125rem;
+            /* margin: 1rem 0; */
+        }
+        
+        .fake-input-model {
+            padding: 5px;
+            background: white;
+            display: inline-block;
+            height: 35px;
+            width: 71px;
+            border: 1px solid gray;
+            border-radius: 6px;
+        }
+        
+        .resposta .resposta-title {
+            font-family: "proxima_novabold";
+            margin: 1rem 0;
+        }
+        
+        .number-list {
+            list-style: decimal;
+        }
+        
+        .number-list {
+            /*   font-size: 1.25rem;
+font-weight: bold; */
+            list-style-type: none;
+        }
+        
+        .number-list li:before {
+            font-family: "proxima_novabold";
+            font-size: 18px;
+            font-weight: 800;
+            content: counter(level1) " ";
+            /*Instead of ". " */
+            counter-increment: level1;
+        }
+        
+        .flex-question {
+            display: flex;
+            align-items: initial;
+            gap: 1rem;
+        }
+        
+        .header-questao-resolvida {
+            top: -4%;
+            left: 0;
+            position: absolute;
+            max-width: 40%;
+            color: white;
+            font-size: 1.25rem;
+            justify-content: center;
+            font-family: "Prelo_extra_bold", sans-serif;
+            background: linear-gradient(90deg, #B80071 0%, #850343 100%);
+            padding: 8px;
+            border: 4px solid var(--color-quimica-d1);
+        }
+        
+        .img-with-right-legend {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .img-with-right-legend>div {
+            gap: 10px;
+        }
+        
+        .img-with-right-legend>div img {
+            width: 500px;
+        }
+        
+        .img-with-right-legend>div p {
+            align-self: self-end;
+            flex: 1;
+        }
+        
+        .exercicios {
+            margin-top: 3rem;
+            color: white;
+            font-size: 1.25rem;
+            font-family: "Prelo_extra_bold", sans-serif;
+            background: linear-gradient(90deg, var(--color-quimica-d1) 0%, var(--color-quimica-d2) 100%);
+            padding: 8px;
+            border: 4px solid var(--color-quimica-d1);
+        }
+        
+        .exercicio-text {
+            color: #000;
+            margin-top: 1.5rem;
+            font-size: 1.125rem;
+            font-family: "proxima_novalight", sans-serif;
+        }
+        
+        .exercicio-text b {
+            color: black;
+        }
+        
+        .flex-exercicios {
+            font-family: "Prelo_regular", sans-serif;
+            display: flex;
+            gap: 1rem;
+            align-items: inherit;
+        }
+        
+        .divisor {
+            height: 2rem;
+            width: 90%;
+            border-bottom: 1px dotted #707070;
+        }
+        
+        .consolidando-saberes {
+            font-family: "Prelo_extra_bold", sans-serif;
+            padding: 0.5rem 1rem;
+            color: var(--color-quimica-d2);
+            font-size: 1.25rem;
+            text-transform: uppercase;
+            font-weight: 300;
+            border: 3px solid var(--color-quimica-d1);
+            background-color: var(--color-quimica-d3);
+            margin-top: 3rem;
+        }
+        
+        .enem {
+            color: white;
+            font-size: 1.25rem;
+            text-transform: uppercase;
+            font-family: "Prelo_extra_bold", sans-serif;
+            background-color: var(--color-quimica-d2);
+            border: 3px solid #fff;
+            padding: 0.5rem;
+            margin-top: 3rem;
+        }
+        
+        a.tooltip {
+            text-decoration: none;
+            color: var(--color-quimica-d1);
+            font-weight: bold;
+            position: relative;
+            cursor: pointer;
+            display: inline-block;
+            transition: all 0.4s ease;
+            -webkit-transition: all 0.4s ease;
+            background-color: #fff;
+            position: relative;
+        }
+        
+        a.tooltip:before {
+            font-family: "proxima_novalight", sans-serif;
+            content: attr(data-title);
+            background-color: white;
+            border: 3px solid var(--color-quimica-d1);
+            color: black;
+            font-size: 1rem;
+            padding: 10px;
+            box-sizing: border-box;
+            position: absolute;
+            left: 0;
+            bottom: 35px;
+            font-weight: 300;
+            width: 25rem;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.4s ease;
+        }
+        
+        a.tooltip:after {
+            content: "";
+            position: absolute;
+            opacity: 0;
+            width: 0;
+            height: 0;
+            left: 5px;
+            bottom: 25px;
+            border-style: solid;
+            border-width: 0 10px 10px 10px;
+            border-color: transparent transparent var(--color-quimica-d1) transparent;
+            transition: all 0.4s ease;
+            transform: rotateX(180deg);
+        }
+        
+        a.tooltip:focus:after,
+        a.tooltip:focus:before {
+            opacity: 1;
+            visibility: visible;
+        }
+        
+        a.left::before {
+            left: -16.25rem !important;
+        }
+        /* Collapse */
+        
+        .wrap-collabsible {
+            margin-bottom: 200px;
+        }
+        
+        input[type="checkbox"] {
+            display: none;
+        }
+        
+        .lbl-toggle-mat {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: bold;
+            font-size: 1.5rem;
+            text-align: center;
+            padding: 1rem;
+            background: var(--color-ing-a3);
+            color: #bd8432;
+            height: 3.25rem;
+            cursor: pointer;
+            transition: all 0.25s ease-out;
+        }
+        
+        .collapsible-content-mat {
+            background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, var(--color-ing-a3) 100%);
+            max-height: 0px;
+            overflow: hidden;
+            transition: max-height 0.25s ease-in-out;
+        }
+        
+        .toggle-mat:checked+.lbl-toggle-mat+.collapsible-content-mat {
+            max-height: 100vh;
+        }
+        
+        .toggle-mat:checked+.lbl-toggle-mat .ion-md-add {
+            display: none;
+        }
+        
+        .toggle-mat:checked+.lbl-toggle-mat .ion-md-remove {
+            display: block;
+        }
+        
+        .ion-md-remove {
+            display: none;
+        }
+        
+        .toggle-mat:checked+.lbl-toggle-mat {
+            border-bottom-right-radius: 0;
+            border-bottom-left-radius: 0;
+        }
+        
+        .collapsible-content-mat .content-inner {
+            padding: 0 1rem;
+        }
+        
+        .content-inner,
+        .text-content-area,
+        .general-text {
+            font-family: "proxima_novalight", sans-serif;
+        }
+        
+        label img {
+            width: 2rem;
+        }
+        
+        .wrap-collabsible h3 {
+            margin: 0;
+            padding: 0;
+            font-size: 1.125rem;
+        }
+        
+        .wrap-collabsible h4 {
+            margin: 0;
+            padding: 0;
+            padding-top: 1rem;
+            font-size: 1.125rem;
+            text-align: left;
+        }
+        
+        .wrap-collabsible p {
+            margin: 0;
+            padding: 0;
+            font-size: 1.125rem;
+        }
+        
+        .wrap-collabsible p:not(:first-child) {
+            padding-top: 1rem;
+        }
+        
+        .wrap-collabsible .double-columned-content {
+            align-items: start;
+        }
+        
+        .teste3 {
+            background-color: #ECF0A6;
+        }
+        
+        .teste2 {
+            background-color: #ECF0A6;
+            width: 350px;
+            height: 115px;
+            font-style: italic;
+            font-size: 12px;
+        }
+        
+        .civetCats {
+            background-color: #ECF0A6;
+            height: 60px;
+            width: 230px;
+        }
+        
+        .img-gustave {
+            width: 190px;
+            height: 260px;
+        }
+        
+        .wrap-collabsible .text-credit {
+            padding: 0 !important;
+            margin-bottom: 1rem;
+            font-size: 0.75rem;
+            font-weight: 300;
+            text-align: left;
+        }
+        
+        .wrap-collabsible .img-description {
+            padding-top: 0.5rem !important;
+            font-size: 0.75rem;
+        }
+        
+        .wrap-collabsible ul {
+            margin: 0;
+            padding: 0;
+            padding-left: 1.5rem;
+            padding-top: 0.5rem;
+        }
+        
+        .collapsible-title {
+            padding: 0 !important;
+            font-size: 1.25rem !important;
+            color: var(--color-ing-a2);
+            font-family: "Prelo_bold";
+        }
+        
+        .no-margin {
+            margin: 0 !important;
+        }
+        
+        .no-margin-top {
+            margin-top: 0 !important;
+        }
+        
+        .width-38 {
+            width: 38rem;
+        }
+        
+        .align-self-end {
+            align-self: flex-end;
+        }
+        
+        .height-230 {
+            height: 230px;
+        }
+        
+        .margin-top {
+            margin-top: 3rem;
+        }
+        
+        .margin-top-1 {
+            margin-top: 1rem !important;
+        }
+        
+        .margin-top-7 {
+            margin-top: 7rem;
+        }
+        
+        .titulo-grafico {
+            position: relative;
+            font-size: 1.625rem;
+            text-align: left;
+            font-weight: 800;
+            color: var(--color-quimica-d1);
+            font-family: "Prelo_extra_bold", sans-serif;
+            text-align: center;
+        }
+        
+        .titulo-grafico::before {
+            content: "";
+            position: absolute;
+            height: 4px;
+            width: 100%;
+            background: var(--color-ing-a2);
+            left: 0;
+            top: -3px;
+        }
+        
+        .titulo-grafico::after {
+            content: "";
+            position: absolute;
+            height: 4px;
+            width: 100%;
+            background: var(--color-ing-a2);
+            left: 0;
+            bottom: -3px;
+        }
+        
+        .flex-images {
+            display: flex;
+            gap: 1rem;
+            align-items: flex-end;
+        }
+        
+        .align-items-top {
+            align-items: flex-start !important;
+        }
+        
+        .no-gap {
+            gap: 0 !important;
+        }
+        
+        .height-261 {
+            height: 261px;
+        }
+        
+        .height-728 {
+            height: 728px;
+        }
+        
+        .letter-image {
+            display: inline-block;
+            color: #fff;
+            font-weight: 800;
+            display: grid;
+            place-items: center;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background: #B80071;
+        }
+        /*  */
+        
+        .quote-title {
+            font-size: 24px;
+            font-family: 'theserif_semibold', sans-serif;
+            text-align: center;
+            margin-bottom: 1rem;
+            margin-top: 1rem;
+        }
+        
+        .quote {
+            margin-top: 1rem;
+            margin-left: 1.5rem;
+            text-align: left;
+            font-size: 18px;
+            font-family: 'theserif_extralight', sans-serif;
+        }
+        
+        .quote-source {
+            text-align: right;
+            font-family: 'proxima_novalight', sans-serif;
+            font-size: 16px;
+            letter-spacing: 0px;
+            margin-bottom: 2rem;
+            margin-top: 1rem;
+            width: 90%;
+            margin-left: auto;
+        }
+        
+        .img-littlee3 {
+            max-width: 35px;
+            margin: 0 auto;
+            display: inline;
+        }
+        
+        .img-littlee2 {
+            max-width: 55px;
+            margin: 0 auto;
+            display: inline;
+        }
+        
+        .img-littlee {
+            max-width: 250px;
+            margin: 0 auto;
+            display: inline;
+        }
+        
+        .teste3 {
+            background-color: #DF8CBF;
+        }
+        
+        .img-md-banner {
+            max-width: 400px;
+            display: block;
+            margin-bottom: 0.5rem;
+            margin-top: -20rem;
+            margin-left: auto;
+            margin-right: -5rem;
+        }
+        
+        .img-md-1 {
+            max-width: 500px;
+            margin: 0 auto;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="body-book">
+            <div class="main">
+                <div class="section">
+
+                    <div class="content-fullwidth-area">
+                        <div class="titulo-cap-section">
+                            <div class="cap-section">
+                                <span class="cap-texto">Capítulo</span>
+                                <p class="cap-number">
+                                    6
+                                </p>
+                            </div>
+                            <div class="titulo-cap-background">
+                                <h1 class="título-cap">
+                                    Lei de ação das massas
+                                </h1>
+                            </div>
+                        </div>
+                        <img class="img-full-width" src="./assets/img/F001-2020-EM-QUI-2S-L2-FA-U4-C13.png" alt="imagem">
+                    </div>
+
+                    <!-- home -->
+                    <div class="text-content-area">
+                        <p class="img-subtitle">A importância dos catalisadores de automóveis.
+                        </p>
+                        <p class="img-credit">Paolo Bona/Shutterstock.com
+
+                        </p>
+                        <p class="quote-title">Como funcionam os catalisadores dos automóveis?</p>
+                        <p class="quote">O verbo catalisar significa estimular ou acelerar uma reação. É exatamente o que faz esse dispositivo antipoluente acoplado ao escapamento dos carros, ao finalizar a combustão que não aconteceu por completo no motor. Ao passarem
+                            pelo catalisador, os gases emitidos pela queima da gasolina – os venenosos monóxido de carbono (CO), hidrocarboneto (CH) e óxidos de nitrogênio (NOx) – são filtrados por uma estrutura em forma de colmeia. “Ela é composta de
+                            duas substâncias químicas (paládio e molibdênio) que reagem com esses gases, convertendo-os em vapor de água e outros gases não tóxicos, como o gás carbônico (CO2) e o nitrogênio (N2)”, afirma o engenheiro Guenther Carlos Krieger
+                            Filho, da Escola Politécnica da Universidade de São Paulo (USP). Desde 1983, a lei determina que todos os veículos brasileiros devem possuir catalisador – abre-se apenas uma exceção para carros com motor auto-suficiente, capaz
+                            de queimar todos os gases sem deixar resíduos poluidores.</p>
+                        <p class="quote-source"> REDAÇÃO. “Como funcionam os catalisadores dos automóveis?”.
+                            <i>Superinteressante</i> , 31 out. 2016. Abril Comunicações S.A. Disponível em:&lt;https://super.abril.com.br/comportamento/como-funcionam-os-catalisadores-dos-automoveis/&gt;. Acesso em: 2 set. 2021.</p>
+
+                    </div>
+
+                    <!-- bullet and boxe-2 -->
+                    <div class="text-content-area">
+                        <!-- bullet -->
+                        <div class="bullet-list-section">
+                            <ul class="bullet-list">
+                                <li class="general-text">
+                                    A velocidade de uma reação é influenciada pela concentração dos seus produtos?
+                                </li>
+                                <li class="general-text">
+                                    Existem reações que só ocorrem na presença de um catalisador? Sem ele, a reação não acontece?
+                                </li>
+                                <li class="general-text">
+                                    Como se calcula a velocidade de uma reação?
+                                </li>
+                            </ul>
+                        </div>
+                        <!--boxe-2  -->
+                        <div class="boxe-06-02-cie-hab">
+                            <img src="./assets/icons/01_titulo1.svg" class="boxe-06-02-icon">
+                            <p class='chapter-description'> Neste capítulo serão abordadas as habilidades
+                                <span class='boxe-06-texto'>
+                                  EM13CNT101
+                                </span> e
+                                <span class='boxe-06-texto'>
+                                  EM13CNT205
+                                </span>.<span class='boxe-06-texto'>
+                                  EM13CNT301
+                                </span><span class='boxe-06-texto'>
+                                  EM13CNT302
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="text-content-area">
+                        <div class="titulo1-section">
+                            <img src="./assets/icons/01_titulo1.svg">
+                            <h3 class="titulo1">Lei de velocidade</h3>
+                        </div>
+                        <p class="general-text">No capítulo anterior, aprendemos que a concentração dos reagentes é um dos fatores que influenciam a velocidade da reação. A lei de velocidade ou lei de ação das massas é a relação matemática entre a concentração dos reagentes
+                            e a velocidade de dada reação, determinada em 1864 pelos químicos noruegueses Cato Maximilian Guldberg (1836-1902) e Peter Waage (1833-1900). Para uma reação elementar, ou seja, que ocorre em apenas uma etapa, a lei de velocidade
+                            pode ser definida assim:</p>
+                        <p class="general-text">1 A + 2 B &#10141; P</p>
+                        <p class="general-text">
+                            <i>v</i> =
+                            <i>k</i> ∙ [A]1 ∙ [B]<sup>2</sup>
+                        </p>
+                        <p class="general-text">
+                            Sendo
+                            <b><i>v</i></b> a velocidade,
+                            <i>k</i> a constante cinética da reação,
+                            <b>[A]</b> 1 a concentração do reagente A elevada ao seu coeficiente estequiométrico e
+                            <b>[B]</b> 2 a concentração do reagente B elevada ao seu coeficiente estequiométrico. Portanto, a lei de ação das massas nos diz que a velocidade de uma reação é diretamente proporcional ao produto das concentrações em mol/L
+                            dos reagentes elevadas aos expoentes que, no caso de uma reação elementar, são seus próprios coeficientes estequiométricos.
+                        </p>
+                        <p class="general-text">Para chegar até a lei de velocidade, esses químicos trabalharam analisando diferentes concentrações de um reagente e a velocidade instantânea da reação, ou seja, quanto da concentração do reagente foi consumido em um curto intervalo
+                            de tempo. Esse trabalho experimental foi essencial para verificar se a lei de velocidade poderia ser aplicada para reações não elementares. Para isso, eles realizaram testes modificando a concentração do reagente e determinando
+                            a velocidade da reação. Vamos acompanhar o exemplo da reação de decomposição da água oxigenada:</p>
+                        <p class="general-text">
+                            H2O2(aq) &#10141; H2O(&#8467;) 1
+                            <img src="./assets/img/" alt="imagem" class="img-littlee2"> O2(g)
+                        </p>
+                        <img src="./assets/img/p58_fig01.png" alt="imagem" class="img-md">
+                        <p class="general-text">
+                            Quando a reação não é elementar, ou seja, quando ocorre em mais de uma etapa, a determinação dos expoentes da lei de velocidade é feita experimentalmente. Vamos considerar os dados experimentais da tabela acima e que a lei de velocidade da decomposição
+                            da H2O2 é
+                            <i>v</i> =
+                            <i>k</i> ∙ [H2O2]
+                            <i>n</i> :
+                        </p>
+                        <p class="general-text">
+                            Experimento 1: 0,5 5
+                            <i>k</i> ∙ (0,1)
+                            <i>n</i>
+                        </p>
+                        <p class="general-text">
+                            Experimento 2: 2,0 =
+                            <i>k</i> ∙ (0,2)
+                            <i>n</i>
+                        </p>
+                        <p class="general-text">
+                            Isolando
+                            <i>k</i> em cada experimento, temos:
+                            <img src="./assets/img/001_L4_QUI_I_C13.png" alt="imagem" class="img-littlee">
+                        </p>
+                        <p class="general-text">
+                            Como o valor de
+                            <i>k</i> é igual em ambos experimentos, temos:
+                            <img src="./assets/img/002_L4_QUI_I_C13.png" alt="imagem" class="img-md">
+                        </p>
+                        <p class="general-text">
+                            Ou seja,
+                            <i>n</i> = 2
+                        </p>
+                        <p class="general-text">
+                            Logo, a lei de velocidade dessa reação é
+                            <i>v</i> 5
+                            <i>k</i> ∙ [H<sup>2</sup>O<sup>2</sup>]<sup>2</sup>.
+                        </p>
+                        <p class="general-text">Mas e se a reação não elementar tiver mais de um reagente?</p>
+                        <p class="general-text">Nesse caso, é preciso analisar experimentalmente a influência direta de cada reagente na velocidade da reação. Para isso, altera-se a concentração de um reagente por vez e compara-se o quanto a velocidade da reação foi modificada.
+                            Observe o exemplo:</p>
+                        <p class="general-text">2 NO(g) + 2 H2(g) &#10141; N2(g) + 2 H2O(g)</p>
+
+                        <div>
+                            <!-- watch out -->
+                            <div class='wrap-collabsible'>
+                                <input id='collapsible-his-1' class='toggle-mat' type='checkbox'>
+                                <label for='collapsible-his-1' class='lbl-toggle-mat'>
+                          <div class='flex-icon'>
+                              <img src='./assets/icons/06_BOXE_17_CT.svg' class='icon-boxe'>
+                              <p class='collapsible-title'>Fique ligado!</p>
+                          </div>
+                          <div class='flex-icon'>
+                              <img src='./assets/icons/arrow-down.svg' class='icon ion-md-add'>
+                              <img src='./assets/icons/arrow-up.svg' class='icon ion-md-remove'>
+                          </div>
+                      </label>
+                                <div class='collapsible-content-mat'>
+                                    <div class='content-inner'>
+                                        <div class='text-content-area'>
+                                            <p class='general-text'>
+                                                <p class='chapter-description general-text'>
+                                                    <i>v</i> =
+                                                    <i>k</i> ∙ [R]
+                                                    <i>n</i> ;
+                                                    <b><i>n</i></b> =
+                                                    <b>coeficiente estequiométrico</b> para
+                                                    <b>reações elementares</b> . Para reações não elementares,o
+                                                    <i>n</i> é determinado pela análise da tabela experimental.
+                                                </p>
+                                        </div>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <img src="./assets/img/p59_fig01.png" alt="imagem" class="img-md">
+                        <p class="general-text">Para analisar a influência do reagente NO devemos escolher dois experimentos em que a concentração do H2 permaneça constante e a do NO varie (experimentos 1 e 2). A concentração do NO dobrou e a velocidade da reação também dobrou.
+                            De maneira semelhante ao que fizemos no primeiro exemplo, temos:</p>
+                        <img src="./assets/img/003_L4_QUI_I_C13.png" alt="imagem" class="img-md">
+                        <p class="general-text">
+                            Ou seja,
+                            <i>n</i> = 1 e o expoente de [NO] na lei da velocidade é 1.Para analisar a influência do H2 selecionamos os experimentos 1 e 3, pois a concentração do NO não se altera e a do H2 sofre variação. O valor de [H2] dobrou, enquanto
+                            a velocidade quadruplicou:
+                        </p>
+                        <img src="./assets/img/004_L4_QUI_I_C13.png" alt="imagem" class="img-md">
+                        <p class="general-text">
+                            Ou seja,
+                            <i>n</i> = 2 e o expoente de [H2] na lei de velocidade é 2.
+                        </p>
+                        <p class="general-text">A lei de velocidade para a reação 2 NO(g) + 2 H2(g) &#10141; N2(g) + 2 H2O(g) é:
+                            <i>v</i> =
+                            <i>k</i> ∙ [NO] ∙ [H2]2</p>
+                        <p class="general-text">
+                            Para determinar a unidade da constante cinética de uma reação,
+                            <i>k</i> , vamos supor, por exemplo, que a reação A &#10141; Produtos seja descrita pela lei de velocidade
+                            <i>v</i> =
+                            <i>k</i> ∙ [A], estando a unidade da velocidade em mol/L ∙ se a unidade de concentração de A em mol/L. Então:
+                        </p>
+                        <img src="./assets/img/005_L4_QUI_I_C13_a.png" alt="imagem" class="img-md">
+                        <p class="general-text">
+                            Para esse caso, a unidade da constante será s-1 ou
+                            <img src="./assets/img/005_L4_QUI_I_C13_b.png" alt="imagem" class="img-littlee2"> .
+                        </p>
+                        <p class="general-text">
+                            Analise esse outro exemplo, supondo uma reação A 1 B &#10141; Produtos, com lei de velocidade igual a
+                            <i>v</i> =
+                            <i>k</i> ∙ [A] ∙ [B] e as unidades de velocidade e concentração, respectivamente, em mol/L ∙ s e mol/L:
+                        </p>
+
+                        <img src="./assets/img/006_L4_QUI_I_C13.png" alt="imagem" class="img-md">
+                        <p class="general-text">
+                            Para esse caso, a unidade da constante
+                            <i>k</i> será
+                            <img src="./assets/img/008_L4_QUI_I_C13.png" alt="imagem" class="img-littlee2"> .
+                        </p>
+                        <p class="general-text">
+                            Denomina-se
+                            <b>ordem da reação</b> a soma dos expoentes das concentrações na lei de velocidade. Então, para nosso primeiro exemplo, a decomposição de H2O2 é de ordem 2, ou segunda ordem, e o nosso segundo exemplo, 2 NO(g) + 2 H2(g) &#10141;
+                            N2(g) + 2 H2O(g), é de ordem 3, ou terceira ordem. Podemos, ainda, dizer que a reação é de primeira ordem em relação ao NO e de segunda ordem em relação ao H2.
+                        </p>
+
+
+
+
+                        <div>
+                            <!-- watch out -->
+                            <div class='wrap-collabsible'>
+                                <input id='collapsible-his-2' class='toggle-mat' type='checkbox'>
+                                <label for='collapsible-his-2' class='lbl-toggle-mat'>
+                          <div class='flex-icon'>
+                              <img src='./assets/icons/06_BOXE_17_CT.svg' class='icon-boxe'>
+                              <p class='collapsible-title'>Fique ligado!</p>
+                          </div>
+                          <div class='flex-icon'>
+                              <img src='./assets/icons/arrow-down.svg' class='icon ion-md-add'>
+                              <img src='./assets/icons/arrow-up.svg' class='icon ion-md-remove'>
+                          </div>
+                      </label>
+                                <div class='collapsible-content-mat'>
+                                    <div class='content-inner'>
+                                        <div class='text-content-area'>
+                                            <p class='general-text'>
+                                                <p class='chapter-description general-text'>
+                                                    A unidade da constante cinética (
+                                                    <i>k</i> ) é
+                                                    <b>dependente da lei de velocidade</b> .
+                                                </p>
+                                        </div>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class='questao-resolvida'>
+                            <div class='flex-icon header-questao-resolvida'>
+                                <img src='./assets/icons/06_BOXE_04.svg' class='icon-boxe'>Questão resolvida
+                            </div>
+
+
+                            <div class="flex-exercicios">
+                                <p class="exercicio-text"><b>1</b></p>
+                                <p class="exercicio-text"><b>ITA-SP</b> Velocidades iniciais (vi) de decomposição de peróxido de hidrogênio foram determinadas em três experimentos (A, B e C), conduzidos na presença de I2(aq) sob as mesmas condições, mas com diferentes concentrações
+                                    iniciais de peróxido ([H2O2]i), de acordo com os dados abaixo:</p>
+                            </div>
+                            <img src="./assets/img/p60_fig01.png" alt="imagem" class="img-md">
+                            <p class="exercicio-text ml">Com base nesses dados, para a reação de decomposição do peróxido de hidrogênio:</p>
+                            <ol class="questao-alternativas ml" type="a">
+                                <li> escreva a equação estequiométrica que representa a reação;</li>
+                                <li> indique a ordem desta reação;</li>
+                                <li>escreva a lei de velocidade da reação;</li>
+                                <li>determine o valor numérico da constante de velocidade,
+                                    <i>k</i> ;
+                                </li>
+                                <li> indique a função do I2(aq) na reação.</li>
+                            </ol>
+                            <h4 class="titulo4">Resolução:</h4>
+                            <ol class="questao-alternativas ml" type="a">
+                                <li>H2O2(L) &#10141; H2O(L) 1
+                                    <imagem>fracao_001</imagem>
+                                    O2(g)</li>
+                                <li>A partir da tabela fornecida, temos:</li>
+                                <img src="./assets/img/p60_fig02.png" alt="imagem" class="img-md">
+                                <p class="exercicio-text ml">Quando a concentração do reagente triplica, a velocidade também triplica. Quando a concentração do reagente dobra, a velocidade também dobra, então concluímos que a proporção da influência do reagente na velocidade é de
+                                    1:1, logo a ordem da reação é 1. </p>
+                                <li> Lei da velocidade:
+                                    <i>v</i> =
+                                    <i>k</i> ∙ [H2O2]1</li>
+                                <li> Substituindo os valores da primeira linha da tabela na lei de velocidade:
+                                    <p class="general-text">2,745 =
+                                        <i>k</i> ∙ (0,750)1 ~
+                                        <i>k</i> = 3,66 s-1</p>
+                                </li>
+                                <li> I<sup>-</sup> acelera a reação de decomposição da água oxigenada, ou seja, funciona como catalisador.</li>
+                            </ol>
+                        </div>
+
+                        <div>
+                            <!-- watch out -->
+                            <div class='wrap-collabsible'>
+                                <input id='collapsible-his-4' class='toggle-mat' type='checkbox'>
+                                <label for='collapsible-his-4' class='lbl-toggle-mat'>
+                              <div class='flex-icon'>
+                                  <img src='./assets/icons/06_BOXE_17_CT.svg' class='icon-boxe'>
+                                  <p class='collapsible-title'>Fique ligado!</p>
+                              </div>
+                              <div class='flex-icon'>
+                                  <img src='./assets/icons/arrow-down.svg' class='icon ion-md-add'>
+                                  <img src='./assets/icons/arrow-up.svg' class='icon ion-md-remove'>
+                              </div>
+                          </label>
+                                <div class='collapsible-content-mat'>
+                                    <div class='content-inner'>
+                                        <div class='text-content-area'>
+                                            <p class='general-text'>
+                                                <p class='chapter-description general-text'>
+                                                    A lei de velocidade de uma reação global com mecanismo conhecido será igual à
+                                                </p>
+                                                <p class='chapter-description general-text'><b>lei da velocidade da etapa lenta.</b></p>
+                                        </div>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="boxe-06-03-cie">
+                            <header>
+                                <img src="assets/icons/06_BOXE_03.svg" alt="Icone">
+                                <strong>Discussão em sala</strong>
+                            </header>
+
+                            <section>
+                                <h5 class="boxe-03-titulo2">Cinética Química no cotidiano</h5>
+
+                                <p class="general-text">Vamos refletir juntos em sala: Onde aplicamos a Cinética Química no cotidiano? Ao longo desta unidade, vimos que o prazo de validade dos alimentos é influenciado pela cinética das reações químicas; portanto, aplica-se na
+                                    indústria de alimentos e de bebidas. Onde mais podemos ver a cinética atuando?</p>
+                            </section>
+                        </div>
+
+
+                        <div class="titulo1-section">
+                            <img src="./assets/icons/01_titulo1.svg">
+                            <h3 class="titulo1">Mecanismo de reações</h3>
+                        </div>
+                        <p class="general-text">As reações que ocorrem em mais de uma etapa são descritas por um mecanismo que mostra como os reagentes se transformam em produtos. Cada etapa de um processo global tem sua própria velocidade, ou seja, podemos encontrar etapas
+                            lentas e etapas rápidas em um mesmo mecanismo, sendo a etapa mais lenta a determinante para a cinética da reação global. Considera-se, nesse caso, que cada etapa de um mecanismo é elementar. Portanto, conhecendo o mecanismo
+                            da reação, podemos encontrar a lei de velocidade. Considere a reação representada a seguir.</p>
+                        <p class="general-text">2 NO(g) + C&#8467;2(g) &#10141; 2 NOC&#8467;(g)</p>
+                        <p class="general-text">Sabendo que ela ocorre em duas etapas:</p>
+                        <ol class="questao-alternativas ml" type="I">
+                            <li> 2 NO(g) &#10141; N2O2(g) (rápida)</li>
+                            <li>C&#8467;2(g) + N2O2(g) &#10141; 2 NOC&#8467;(g) (lenta)</li>
+                        </ol>
+                        <p class="general-text">
+                            A lei da velocidade da reação global é a lei da velocidade da etapa lenta:
+                            <i>v</i> =
+                            <i>k</i> ∙ [C&#8467;2] ∙ [N2O2]. Como cada etapa é tratada como reação elementar, os expoentes das concentrações de C&#8467;2 e N2O2 são iguais aos coeficientes estequiométricos da reação, ou seja, 1 para cada caso.
+                        </p>
+                        <p class="general-text">
+                            <i>v</i> =
+                            <i>k</i> ∙ [CL2]1 ∙ [N2O2]1, ou simplesmente
+                            <i>v</i> =
+                            <i>k</i> ∙ [CL2] ∙ [N2O2].
+                        </p>
+                        <p class="general-text">Podemos representar graficamente reações queocorrem em mais de uma etapa. Observe o exemplo para uma reação genérica. </p>
+                        <p class="general-text">A etapa determinante da velocidade será a mais lenta, ou seja, aquela que tiver maior energia de ativação. No exemplo, a segunda etapa é a mais lenta.</p>
+                        <img src="./assets/img/I001-2020-EM-QUI-2S-L2-FA-U4-C13.png" alt="imagem" class="img-md">
+
+                    </div>
+
+
+
+                    <!-- Predicting -->
+                    <div class="text-content-area">
+                        <div class=" flex-icon exercicios applying-knowledge">
+                            <img src="./assets/icons/07_SECAO_02.svg" class="icon-boxe">Aplicando conhecimentos
+                        </div>
+
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>1</b></p>
+                            <p class="exercicio-text"> Considere que a seguinte reação elementar, descrita pela equação química, esteja ocorrendo:</p>
+                        </div>
+                        <p class="exercicio-text ml">CH4(g) 1 C&#8467;2(g) &#10141; H3CC&#8467;(g) 1 HC&#8467;(g)</p>
+                        <p class="exercicio-text ml">Qual é a lei de velocidade e a ordem da reação?</p>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li>v = k ∙ [CH<sup>4</sup>] ∙ [C&#8467;<sup>2</sup>], ordem 1.</li>
+                            <li>v = k ∙ [CH<sup>4</sup>] ∙ [C&#8467;<sup>2</sup>], ordem 2.</li>
+                            <li>v = k ∙ [CH<sup>4</sup>]<sup>2</sup> ∙ [C&#8467;<sup>2</sup>], ordem 2.</li>
+                            <li>v = k ∙ [CH<sup>4</sup>] ∙ [C&#8467;<sup>2</sup>]<sup>2</sup>, ordem 3.</li>
+                            <li>v = k ∙ [CH<sup>4</sup>] ∙ [C&#8467;<sup>2</sup>], ordem 3.</li>
+                        </ol>
+
+
+
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>2</b></p>
+                            <p class="exercicio-text">A reação representada por C<sup>2</sup>H<sup>2</sup>(g) + 2 H<sup>2</sup>(g) &#10141;&#10141; C<sup>2</sup>H<sup>6</sup>(g) ocorre em três etapas:</p>
+                        </div>
+                        <ol class="questao-alternativas ml" type="I">
+                            <li>C<sup>2</sup>H<sup>2</sup>(g) + 2,5 O<sup>2</sup>(g) &#10141; 2 CO<sup>2</sup>(g) + H<sup>2</sup>O(&#8467;) (rápida)</li>
+                            <li> 2 H<sup>2</sup>(g) + O<sup>2</sup>(g) &#10141; 2 H<sup>2</sup>O(&#8467;) (lenta)</li>
+                            <li>2 CO<sup>2</sup>(g) + 3 H<sup>2</sup>O(L) &#10141; C<sup>2</sup>H<sup>6</sup>(g) + 3,5 O<sup>2</sup>(g)</li>
+                            <p class="exercicio-text ml">(rápida)</p>
+                        </ol>
+                        <p class="exercicio-text ml">Qual é a lei de velocidade da reação?</p>
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>3</b></p>
+                            <p class="exercicio-text">Uma reação hipotética entre os reagentes A e B foi estudada cineticamente em laboratório e os dados obtidos foram registrados na seguinte tabela:</p>
+                        </div>
+                        <img src="./assets/img/p61_fig01.png" alt="imagem" class="img-md">
+                        <ol class="questao-alternativas ml" type="a">
+                            <li> Qual é a lei de velocidade da reação?</li>
+                            <li>Qual é a ordem da reação?</li>
+                            <li>Qual é o valor da constante cinética?</li>
+                        </ol>
+
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>4</b></p>
+                            <p class="exercicio-text">A reação não elementar descrita por NO2(g) + + CO(g) &#10141; CO2(g) + NO(g) não tem mecanismo conhecido. Para determinar a lei de velocidade da reação, foram realizados experimentos cinéticos cujos dados estão organizados
+                                na tabela a seguir.</p>
+                        </div>
+                        <img src="./assets/img/p61_fig02.png" alt="imagem" class="img-md">
+                        <ol class="questao-alternativas ml" type="a">
+                            <li>Qual é a lei de velocidade?</li>
+                            <li>Qual é a ordem da reação em relação ao NO2? E em relação ao CO?</li>
+                            <li>O que acontece com a velocidade se a concentração de NO2 triplicar?</li>
+                            <li>O que acontece com a velocidade se a concentração de CO dobrar?</li>
+                        </ol>
+
+
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>5</b></p>
+                            <p class="exercicio-text"><b>UFRGS</b> Para a obtenção de um determinado produto, realiza-se uma reação em 2 etapas. O caminho dessa reação é representado no diagrama abaixo.</p>
+                        </div>
+                        <img src="./assets/img/I002-2020-EM-QUI-2S-L2-FA-U4-C13.png" alt="imagem" class="img-md">
+                        <p class="exercicio-text ml">Considere as afirmações abaixo sobre essa reação.</p>
+                        <ol class="questao-alternativas ml" type="I">
+                            <li> A etapa determinante da velocidade da reação é a etapa 2.</li>
+                            <li>A reação é exotérmica.</li>
+                            <li>A energia de ativação da etapa 1 é maior que a energia de ativação da etapa 2.</li>
+                        </ol>
+                        <p class="exercicio-text ml">Quais estão corretas?</p>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li>Apenas I.</li>
+                            <li>Apenas II.</li>
+                            <li>Apenas III.</li>
+                            <li>Apenas II e III.</li>
+                            <li> I, II e III.\</li>
+                        </ol>
+
+
+                        <div class='consolidando-saberes'>
+                            Consolidando saberes
+                        </div>
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>1</b></p>
+                            <p class="exercicio-text"><b>UEL-PR 2018</b> A decomposição anaeróbica da matéria orgânica que ocorre durante a putrefação de cadáveres produz, dentre outros gases, o metano (CH4). Na combustão completa do CH4, na presença de oxigênio (O2), há formação
+                                de água (H2O) e dióxido de carbono (CO2), ambos gasosos, sendo este último menos prejudicial ao meio ambiente que o CH4. Com base nos conhecimentos sobre cinética e considerando que a reação de combustão do CH4 ocorra num
+                                sistema isolado, atribua V (verdadeiro) ou F (falso) às afirmativas a seguir.</p>
+                        </div>
+
+                        <div class="flex-exercicios ml">
+
+                            <p class="exercicio-text "> <b>(&nbsp;)</b> A adição de um catalisador na mistura aumenta o rendimento da reação e promove a formação de outros produtos.</p>
+                        </div>
+                        <div class="flex-exercicios ml">
+
+                            <p class="exercicio-text"> <b>(&nbsp;)</b> A diminuição do volume ocupado pela mistura gasosa resulta no aumento da velocidade da reação.</p>
+                        </div>
+                        <div class="flex-exercicios ml">
+
+                            <p class="exercicio-text"> <b>(&nbsp;)</b> A velocidade de decomposição de CH4 é a metade da velocidade de formação de H2O.</p>
+                        </div>
+                        <div class="flex-exercicios ml">
+
+                            <p class="exercicio-text"><b>(&nbsp;)</b> A velocidade da reação dobra quando as concentrações de CH4 e O2 forem duplicadas.</p>
+                        </div>
+                        <div class="flex-exercicios ml">
+
+                            <p class="exercicio-text"> <b>(&nbsp;)</b> A velocidade de formação dos produtos, CO2(g) e H2O(g), da reação de combustão é a mesma.</p>
+                        </div>
+                        <p class="exercicio-text ml">Assinale a alternativa que contém, de cima para baixo, a sequência correta.</p>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li> F – V – F – V – F</li>
+                            <li> F – V – V – F – F</li>
+                            <li>F – F – V – F – V</li>
+                            <li>V – V – F – V – F</li>
+                            <li>V – F – V – F – V</li>
+                        </ol>
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>2</b></p>
+                            <p class="exercicio-text"><b>Mackenzie-SP 2018</b> O processo equacionado por NO(g) + O3(g) &#10141; NO2(g) + O2(g) é classificado, em termos cinéticos, como elementar e de segunda ordem. Desse modo, ao serem feitos dois experimentos, ambos sob determinada
+                                temperatura “T”, ao duplicar-se tanto a concentração do NO como do O3 em relação ao primeiro experimento, o segundo experimento terá sua velocidade</p>
+                        </div>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li>reduzida a um quarto.</li>
+                            <li>reduzida à metade.</li>
+                            <li>mantida constante.</li>
+                            <li>duplicada.</li>
+                            <li>quadruplicada.</li>
+                        </ol>
+
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>3</b></p>
+                            <p class="exercicio-text"><b>UEM-PR 2018</b> Os seguintes dados foram medidos para a reação do monóxido de nitrogênio com hidrogênio.</p>
+                        </div>
+                        <p class="exercicio-text ml">2 NO(g) + 2 H2(g) &#10141; N2(g) + 2 H2O(g)</p>
+                        <img src="./assets/img/p62_fig01.png" alt="imagem" class="img-md">
+                        <p class="exercicio-text ml">Considerando observações experimentais e conhecimentos sobre o assunto, assinale o que for correto.</p>
+                        <div class="flex-exercicios ml">
+                            <p class="exercicio-text"><b>01.</b></p>
+                            <p class="exercicio-text">A lei da velocidade para a reação é v = k ∙ [NO]2 ∙ [H2]2.</p>
+                        </div>
+                        <div class="flex-exercicios ml">
+                            <p class="exercicio-text"><b>02.</b></p>
+                            <p class="exercicio-text">A velocidade da reação diminui com o tempo, pois as [NO] e [H2] diminuem e, portanto, o número de colisões efetivas é menor.</p>
+                        </div>
+                        <div class="flex-exercicios ml">
+                            <p class="exercicio-text"><b>04.</b></p>
+                            <p class="exercicio-text">A velocidade de formação de N2(g) é o dobro da velocidade de consumo de NO(g).</p>
+                        </div>
+                        <div class="flex-exercicios ml">
+                            <p class="exercicio-text"><b>08.</b></p>
+                            <p class="exercicio-text">Quando a [NO] = [H2] = 0,05 mol/L, a velocidade da reação é 0,615 ∙ 1023 mol/L ∙ s.</p>
+                        </div>
+                        <div class="flex-exercicios ml">
+                            <p class="exercicio-text"><b>16.</b></p>
+                            <p class="exercicio-text">A constante de velocidade da reação não pode ser determinada a partir dos experimentos 1, 2 e 3.</p>
+                        </div>
+                        <div class="align-horizontal ml margin-top-1">
+                            <b>Soma:</b> <span class="fake-input-model"></span>
+                        </div>
+
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>4</b></p>
+                            <p class="exercicio-text"><b>EsPCEx-SP 2018</b> O estudo da velocidade das reações é muito importante para as indústrias químicas, pois conhecê-la permite a proposição de mecanismos para uma maior produção. A tabela abaixo apresenta os resultados experimentais
+                                obtidos para um estudo cinético de uma reação química genérica elementar.</p>
+                        </div>
+                        <img src="./assets/img/p62_fig02.png" alt="imagem" class="img-md">
+                        <p class="exercicio-text ml">A partir dos resultados experimentais apresentados na tabela, pode-se afirmar que a expressão da equação da lei da velocidade (v) para essa reação química é</p>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li>v = k ∙ [A] ∙ [B] ∙ [C]2</li>
+                            <li>v = k ∙ [A]2 ∙ [B] ∙ [C]2</li>
+                            <li>v = k ∙ [A]2 ∙ [B]2 ∙ [C]</li>
+                            <li>v = k ∙ [A] ∙ [B] ∙ [C]</li>
+                            <li> v = k ∙ [A]0 ∙ [B] ∙ [C]</li>
+                        </ol>
+
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>5</b></p>
+                            <p class="exercicio-text"><b>FMJ-SP 2020</b> Considere a reação genérica entre as substâncias AB e C2:</p>
+                        </div>
+                        <p class="exercicio-text ml">4 AB 1 C2 &#10141; 2 B2 1 2 A2C</p>
+                        <p class="exercicio-text ml">O estudo cinético dessa reação concluiu que ela ocorre em três etapas elementares:</p>
+                        <p class="exercicio-text ml">Etapa 1: AB 1 C2 &#10141; ACCB</p>
+                        <p class="exercicio-text ml">Etapa 2: ACCB 1 AB &#10141; 2 ACB</p>
+                        <p class="exercicio-text ml">Etapa 3: 2 ACB 1 2 AB &#10141; 2 B2 1 2 A2C</p>
+                        <p class="exercicio-text ml">O gráfico mostra a variação de energia associada a cada etapa da reação e a tabela apresenta as velocidades relativas da reação para determinadas combinações de concentrações dos reagentes.</p>
+                        <img src="./assets/img/lumen_2022_3s_l5_qui_fa_u2_cap6_q004.png" alt="imagem" class="img-md">
+                        <img src="./assets/img/ex1.png" alt="imagem" class="img-md">
+                        <ol class="questao-alternativas ml" type="a">
+                            <li>Qual das etapas da reação genérica apresentada é a mais lenta? Justifique sua resposta.</li>
+                            <li>Escreva a expressão para a lei da velocidade da reação entre as substâncias AB e C2. Qual o valor da ordem global dessa reação?</li>
+                        </ol>
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>6</b></p>
+                            <p class="exercicio-text"> <b>ITA-SP 2017</b> A reação química genérica X &#10141; Y tem lei de velocidade de primeira ordem em relação ao reagente X. À medida que a reação ocorre a uma temperatura constante, é ERRADO afirmar que:</p>
+                        </div>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li>a constante de velocidade da reação não se altera.</li>
+                            <li>o tempo de meia-vida do reagente X permanece constante.</li>
+                            <li>a energia de ativação da reação não se altera.</li>
+                            <li>a velocidade da reação permanece constante.</li>
+                            <li> a ordem da reação não se altera.</li>
+                        </ol>
+
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>7</b></p>
+                            <p class="exercicio-text"> <b>UFRGS 2020</b> A reação do relógio de iodo é bastante comum em feiras de ciências e em demonstrações didáticas. Nela, a ocorrência de várias reações que envolvem iodo e compostos, contendo enxofre em diversos estados de
+                                oxidação, leva à formação de uma coloração azul súbita, dependente da concentração dos reagentes. Uma possibilidade de realização dessa reação usa persulfato, tiossulfato e iodeto, e, nesse caso, uma das etapas é a reação
+                                entre o íon persulfato (S2O822) e o íon iodeto (I2), cuja velocidade de decomposição do persulfato foi determinada e encontra-se na tabela abaixo.</p>
+                        </div>
+                        <img src="./assets/img/ex2.png" alt="imagem" class="img-md">
+                        <p class="exercicio-text ml">Assinale a alternativa que apresenta a velocidade inicial x do experimento 4, em mol ∙ L-1 ∙ s-1, tendo em vista as condições expressas acima.</p>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li> 0,512</li>
+                            <li>2,048</li>
+                            <li>2,560</li>
+                            <li> 6,400</li>
+                            <li>8,120</li>
+                        </ol>
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>8</b></p>
+                            <p class="exercicio-text"> <b>ITA-SP 2017</b> Considere que a decomposição do N2O5, representada pela equação química global:</p>
+                        </div>
+                        <p class="exercicio-text ml">2 N2O5 &#10141; 4 NO2 + O2</p>
+                        <p class="exercicio-text ml">Apresente lei de velocidade de primeira ordem. No instante inicial da reação, a concentração de N2O5 é de 0,10 mol/L e a velocidade de consumo desta espécie é de 0,022 mol/L ? min. Assinale a opção que apresenta o valor da constante
+                            de velocidade da reação global, em min21.</p>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li>0,0022</li>
+                            <li>0,011</li>
+                            <li>0,022</li>
+                            <li>0,11</li>
+                            <li>0,22</li>
+                        </ol>
+                    </div>
+
+
+
+
+                    <div class="text-content-area">
+                        <div class="flex-icon enem">
+                            <img src="./assets/icons/07_SECAO_05.svg" class="icon-boxe"> No enem é assim
+                        </div>
+                        <p class="general-text">As questões selecionadas nesta seção são prioritariamente do Enem, mas questões de vestibulares diversos que apresentam características semelhantes aos itens do referido exame também foram usadas como recurso para estudo.</p>
+
+
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>1</b></p>
+                            <p class="exercicio-text"><b>Enem 2020</b> A nanotecnologia pode ser caracterizada quando os compostos estão na ordem de milionésimos de milímetros, como na utilização de nanomateriais catalíticos nos processos industriais. O uso desses materiais aumenta
+                                a eficiência da produção, consome menos energia e gera menores quantidades de resíduos. O sucesso dessa aplicação tecnológica muitas vezes está relacionado ao aumento da velocidade da reação química envolvida. O êxito da
+                                aplicação dessa tecnologia é por causa da realização de reações químicas que ocorrem em condições de</p>
+                        </div>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li>alta pressão.</li>
+                            <li> alta temperatura.</li>
+                            <li>excesso de reagentes.</li>
+                            <li>maior superfície de contato.</li>
+                            <li>elevada energia de ativação.</li>
+                        </ol>
+
+
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>2</b></p>
+                            <p class="exercicio-text"> <b>ITA-SP</b> A reação entre os íons brometo e bromato, em meio aquoso e ácido, pode ser representada pela seguinte equação química balanceada:</p>
+                        </div>
+                        <p class="exercicio-text ml">5 Br<sup>-(aq)</sup> + BrO3<sup>-(aq)</sup> + 6 H<sup>+(aq)</sup> &#10141; 3 Br<sup>2</sup>(aq) + 3 H<sup>2</sup>O(&#8467;)Sabendo que a velocidade de desaparecimento do íon bromato é igual a 5,63 ∙ 1026 mol/L ∙ s, assinale a alternativa
+                            que apresenta o valor CORRETO para a velocidade de aparecimento do bromo, Br2, expressa em mol/L ∙ s.</p>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li>1,69 ∙ 1025</li>
+                            <li>5,63 ∙ 1026</li>
+                            <li>1,90 ∙ 1026</li>
+                            <li> 1,13 ∙ 1026</li>
+                            <li>1,80 ∙ 10216</li>
+                        </ol>
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>3</b></p>
+                            <p class="exercicio-text"> <b>Udesc</b> Um fogão de cozinha consome 134,4 L de metano por hora, medidos nas CNTP. Nas mesmas condições, a velocidade de formação do dióxido de carbono, resultante da combustão completa do metano, é:</p>
+                        </div>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li> 6 moléculas/h</li>
+                            <li>6,02 ? 1023 moléculas/h</li>
+                            <li>8,4 mol/h</li>
+                            <li>22,4 L/h</li>
+                            <li>6 mol/h</li>
+                        </ol>
+
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>4</b></p>
+                            <p class="exercicio-text"><b>UFRGS</b> Considere a reação abaixo:N<sup>2</sup>(g) + 3 H<sup>2</sup>(g) &#10141; 2 NH<sup>3</sup>(g)</p>
+                        </div>
+                        <img src="./assets/img/exenem1.png" alt="imagem" class="img-md">
+                        <p class="exercicio-text ml">Com base nos dados apresentados, é correto afirmar que a velocidade média de formação da amônia será</p>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li>0,10 mol/L ∙ min</li>
+                            <li>0,20 mol/L ∙ min</li>
+                            <li>0,30 mol/L ∙ min</li>
+                            <li>0,40 mol/L ∙ min</li>
+                            <li>0,60 mol/L ∙ min</li>
+                        </ol>
+
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>5</b></p>
+                            <p class="exercicio-text"><b>Uepa</b> Um dos problemas ambientais na atualidade relaciona-se com o desaparecimento da camada de ozônio na atmosfera. É importante notar que, quando desaparece o gás ozônio, aparece imediatamente o gás oxigênio de acordo
+                                com a equação abaixo:</p>
+                        </div>
+                        <img src="./assets/img/" alt="imagem" class="img-md">
+                        <p class="exercicio-text ml">Considerando a velocidade de aparecimento de O<sup>2</sup> igual a 12 mol/L ∙ s, a velocidade de desaparecimento do ozônio na atmosfera em mol/L ∙ s é:</p>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li> 12</li>
+                            <li> 8</li>
+                            <li>6</li>
+                            <li>4</li>
+                            <li>2</li>
+                        </ol>
+
+
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>6</b></p>
+                            <p class="exercicio-text"><b>Uespi</b> A combustão completa do butanol é representada pela equação:</p>
+                        </div>
+                        <p class="exercicio-text ml">C4H9OH(&#8467;) + 6 O2(g) &#10141; 4 CO2(g) + = H2O(&#8467;)</p>
+                        <p class="exercicio-text ml">Sabendo que em 1 hora de reação foram produzidos 15,84 kg de gás carbônico, é correto afirmar que a velocidade da reação acima, expressa em mols de butanol consumido por minuto, é:</p>
+                        <p class="exercicio-text ml"> <b>Dados:</b> H = 1; C = 12; O = 16</p>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li>1,5</li>
+                            <li>3,0</li>
+                            <li>4,5</li>
+                            <li> 6,0</li>
+                            <li>7,0</li>
+                        </ol>
+
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>7</b></p>
+                            <p class="exercicio-text"><b>Cefet-MG</b> Em um recipiente de vidro preenchido com peróxido de hidrogênio foram inseridas pequenas porções de óxido de manganês sólido. Em seguida, tampou-se o recipiente e observou-se a formação exotérmica de bolhas
+                                de gás oxigênio, conforme a equação seguinte.</p>
+                        </div>
+                        <img src="./assets/img/" alt="imagem" class="img-md">
+                        <p class="exercicio-text ml">A velocidade da decomposição do peróxido de hidrogênio é proporcional</p>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li> à elevação da pressão interna do recipiente de vidro</li>
+                            <li>à quantidade de matéria das substâncias líquidas da reação.</li>
+                            <li>à quantidade de calor absorvida pelo gás oxigênio e pela água.</li>
+                            <li>à superfície de contato das partículas de óxido de manganês.</li>
+                            <li>ao número de complexos ativados formados entre o gás oxigênio e a água.</li>
+                        </ol>
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>8</b></p>
+                            <p class="exercicio-text"><b>EsPCEx-SP</b></p>
+                        </div>
+                        <p class="quote"> Uma amostra de açúcar exposta ao oxigênio do ar pode demorar muito tempo para reagir. Entretanto, em nosso organismo, o açúcar é consumido em poucos segundos, quando entra em contato com o oxigênio. Tal fato se deve à presença
+                            de enzimas que agem sobre as moléculas do açúcar, criando estruturas que reagem mais facilmente com o oxigênio...</p>
+                        <p class="quote-source">Usberco e Salvador,
+                            <i>Química</i> , vol 2. FTD, SP, pág. 377, 2009. (Adaptado).</p>
+                        <p class="exercicio-text ml">Baseado no texto acima, a alternativa que justifica corretamente a ação química dessas enzimas é:</p>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li>As enzimas atuam como inibidoras de reação, por ocasionarem a diminuição da energia de ativação do processo e, consequentemente, acelerarem a reação entre o açúcar e o oxigênio.</li>
+                            <li> As enzimas atuam como inibidoras de reação, por ocasionarem o aumento da energia de ativação do processo e, consequentemente, acelerarem a reação entre o açúcar e o oxigênio.</li>
+                            <li>As enzimas atuam como catalisadores da reação, por ocasionarem o aumento da energia de ativação do processo, fornecendo mais energia para a realização da reação entre o açúcar e o oxigênio.</li>
+                            <li>As enzimas atuam como catalisadores da reação, por ocasionarem a diminuição da energia de ativação do processo, provendo rotas alternativas de reação menos energéticas, acelerando a reação entre o açúcar e o oxigênio.</li>
+                            <li> As enzimas atuam como catalisadores da reação, por ocasionarem a diminuição da energia de ativação do processo ao inibirem a ação oxidante do oxigênio, desacelerando a reação entre o açúcar e o oxigênio.</li>
+                        </ol>
+
+
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>9</b></p>
+                            <p class="exercicio-text"> <b>Enem PPL</b></p>
+                        </div>
+                        <p class="quote">A hematita (a–Fe2O3), além de ser utilizada para obtenção do aço, também é utilizada como um catalisador de processos químicos, como na síntese da amônia, importante matéria-prima da indústria agroquímica.</p>
+                        <p class="quote-source"> MEDEIROS, M. A. F.
+                            <i>Química Nova na Escola</i> , São Paulo, v. 32, n. 3, 2010. (Adaptado).</p>
+                        <p class="exercicio-text ml">O uso da hematita viabiliza economicamente a produção da amônia, porque</p>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li>diminui a rapidez da reação.</li>
+                            <li>diminui a energia de ativação da reação.</li>
+                            <li>aumenta a variação da entalpia da reação.</li>
+                            <li>aumenta a quantidade de produtos formados.</li>
+                            <li>aumenta o tempo do processamento da reação.</li>
+                        </ol>
+
+
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>10</b></p>
+                            <p class="exercicio-text"> <b>Enem PPL 2020</b> O peróxido de hidrogênio é um produto secundário do metabolismo celular e apresenta algumas funções úteis, mas, quando em excesso, é prejudicial, gerando radicais que são tóxicos para as células. Para se
+                                defender, o organismo vivo utiliza a enzima catalase, que decompõe H<sup>2</sup>O<sup>2</sup> em H<sup>2</sup>O e O<sup>2</sup>. A energia de reação de decomposição, quando na presença e ausência da catalase, está mostrada
+                                no gráfico.</p>
+                        </div>
+                        <img src="./assets/img/lumen_2022_3s_l5_qui_fa_u2_cap6_q005.png" alt="imagem" class="img-md">
+                        <p class="exercicio-text ml">Na situação descrita, o organismo utiliza a catalase porque ela</p>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li>diminui a energia de ativação.</li>
+                            <li>permite maior rendimento da reação.</li>
+                            <li> diminui o valor da entalpia da reação.</li>
+                            <li> consome rapidamente o oxigênio do reagente.</li>
+                            <li> reage rapidamente com o peróxido de hidrogênio.</li>
+                        </ol>
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>11</b></p>
+                            <p class="exercicio-text"><b>PUC-Rio</b> A reação química entre dois reagentes ocorre de tal forma que, ao se triplicar a concentração do reagente A, mantendo-se fixa a concentração do reagente B, observa-se o aumento de nove vezes na velocidade inicial
+                                de reação. Por outro lado, a variação da concentração do reagente B não acarreta mudança da velocidade inicial da reação. Assim, é correto afirmar que a equação geral da lei de velocidade da reação, onde v é a velocidade
+                                inicial e k é a constante de velocidade, é:</p>
+                        </div>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li><i>v</i> =
+                                <i>k</i></li>
+                            <li> <i>v</i> =
+                                <i>k</i> ∙ [reagente A]</li>
+                            <li><i>v</i> =
+                                <i>k</i> ∙ [reagente A]<sup>2</sup></li>
+                            <li><i>v</i> =
+                                <i>k</i> ∙ [reagente A]<sup>3</sup></li>
+                            <li> <i>v</i> =
+                                <i>k</i> ∙ [reagente A] ∙ [reagente B]</li>
+                        </ol>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    </div>
+
+
+                    <!-- fim -->
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

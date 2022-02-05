@@ -1,0 +1,1245 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root>
+  <pg57>
+    <TITULO_CAP>6</TITULO_CAP>
+    <TITULO_CAP_TEXTO>Lei de ação das massas</TITULO_CAP_TEXTO>
+    <imagem>F001-2020-EM-QUI-2S-L2-FA-U4-C13.tif</imagem>
+    <credito>Paolo Bona/Shutterstock.com</credito>
+    <legenda>A importância dos catalisadores de automóveis.</legenda>
+    <texto_citado>
+      <texto_citado_titulo>Como funcionam os catalisadores dos automóveis?</texto_citado_titulo>
+      <texto_citado>O verbo catalisar significa estimular ou acelerar uma reação. É exatamente o que faz esse dispositivo antipoluente acoplado ao escapamento dos carros, ao finalizar a combustão que não aconteceu por completo no motor. Ao passarem pelo catalisador, os gases emitidos pela queima da gasolina – os venenosos monóxido de carbono (CO), hidrocarboneto (CH) e óxidos de nitrogênio (NOx) – são filtrados por uma estrutura em forma de colmeia. “Ela é composta de duas substâncias químicas (paládio e molibdênio) que reagem com esses gases, convertendo-os em vapor de água e outros gases não tóxicos, como o gás carbônico (CO2) e o nitrogênio (N2)”, afirma o engenheiro Guenther Carlos Krieger Filho, da Escola Politécnica da Universidade de São Paulo (USP). Desde 1983, a lei determina que todos os veículos brasileiros devem possuir catalisador – abre-se apenas uma exceção para carros com motor auto-suficiente, capaz de queimar todos os gases sem deixar resíduos poluidores.</texto_citado>
+      <fonte>
+        REDAÇÃO. “Como funcionam os catalisadores dos automóveis?”.
+        <i>Superinteressante</i>
+        , 31 out. 2016. Abril Comunicações S.A. Disponível em:&lt;https://super.abril.com.br/comportamento/como-funcionam-os-catalisadores-dos-automoveis/&gt;. Acesso em: 2 set. 2021
+      </fonte>
+      .
+    </texto_citado>
+    <boxe_01>
+      <texto_lista_bullets>•	A velocidade de uma reação é influenciada pela concentração dos seus produtos?</texto_lista_bullets>
+      <texto_lista_bullets>•	Existem reações que só ocorrem na presença de um catalisador? Sem ele, a reação não acontece?</texto_lista_bullets>
+      <texto_lista_bullets>•	Como se calcula a velocidade de uma reação?</texto_lista_bullets>
+    </boxe_01>
+    <p class="general-text">
+      <imagem_inline>01_titulo_1</imagem_inline>
+      Neste capítulo, serão abordadas as habilidades EM13CNT101 , EM13CNT205, EM13CNT301 e EM13CNT302
+    </p>
+  </pg57>
+  <pg58-61>
+    <p class="general-text">
+      <imagem_inline>01_titulo_1</imagem_inline>
+      Lei de velocidade
+      <p class="general-text">No capítulo anterior, aprendemos que a concentração dos reagentes é um dos fatores que influenciam a velocidade da reação. A lei de velocidade ou lei de ação das massas é a relação matemática entre a concentração dos reagentes e a velocidade de dada reação, determinada em 1864 pelos químicos noruegueses Cato Maximilian Guldberg (1836-1902) e Peter Waage (1833-1900). Para uma reação elementar, ou seja, que ocorre em apenas uma etapa, a lei de velocidade pode ser definida assim:</p>
+      <p class="general-text">1 A 1 2 B &#10141; P</p>
+      <p class="general-text">
+        <i>v</i>
+        5
+        <i>k</i>
+        ? [A]1 ? [B]2
+      </p>
+      <p class="general-text">
+        Sendo
+        <b_italico>v</b_italico>
+        a velocidade,
+        <i>k</i>
+        a constante cinética da reação,
+        <b>[A]</b>
+        1 a concentração do reagente A elevada ao seu coeficiente estequiométrico e
+        <b>[B]</b>
+        2 a concentração do reagente B elevada ao seu coeficiente estequiométrico. Portanto, a lei de ação das massas nos diz que a velocidade de uma reação é diretamente proporcional ao produto das concentrações em mol/L dos reagentes elevadas aos expoentes que, no caso de uma reação elementar, são seus próprios coeficientes estequiométricos.
+      </p>
+      <p class="general-text">Para chegar até a lei de velocidade, esses químicos trabalharam analisando diferentes concentrações de um reagente e a velocidade instantânea da reação, ou seja, quanto da concentração do reagente foi consumido em um curto intervalo de tempo. Esse trabalho experimental foi essencial para verificar se a lei de velocidade poderia ser aplicada para reações não elementares. Para isso, eles realizaram testes modificando a concentração do reagente e determinando a velocidade da reação. Vamos acompanhar o exemplo da reação de decomposição da água oxigenada:</p>
+      <p class="general-text">
+        H2O2(aq) &#10141; H2O(L) 1
+        <imagem>fracao_001</imagem>
+        O2(g)
+      </p>
+      <tabela>
+        <table frame="all">
+          <tgroup cols="3">
+            <colspec colname="c1" colwidth="85.03937007874016pt"></colspec>
+            <colspec colname="c2" colwidth="85.03937007874016pt"></colspec>
+            <colspec colname="c3" colwidth="107.71653543307087pt"></colspec>
+            <tbody>
+              <row>
+                <entry align="center" valign="middle">Experimento</entry>
+                <entry align="center" valign="middle">[H2O2] (mol/L)</entry>
+                <entry align="center" valign="middle">Velocidade (mol/L ? min) </entry>
+              </row>
+              <row>
+                <entry align="center" valign="middle">1</entry>
+                <entry align="center" valign="middle">0,1</entry>
+                <entry align="center" valign="middle">0,5</entry>
+              </row>
+              <row>
+                <entry align="center" valign="middle">2</entry>
+                <entry align="center" valign="middle">0,2</entry>
+                <entry align="center" valign="middle">2,0</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </tabela>
+      <p class="general-text">
+        Quando a reação não é elementar, ou seja, quando ocorre em mais de uma etapa, a determinação dos expoentes da lei de velocidade é feita experimentalmente. Vamos considerar os dados experimentais da tabela acima e que a lei de velocidade da decomposição da H2O2 é
+        <i>v</i>
+        5
+        <i>k</i>
+        ? [H2O2]
+        <i>n</i>
+        :
+      </p>
+      <p class="general-text">
+        Experimento 1: 0,5 5
+        <i>k</i>
+        ? (0,1)
+        <i>n</i>
+      </p>
+      <p class="general-text">
+        Experimento 2: 2,0 5
+        <i>k</i>
+        ? (0,2)
+        <i>n</i>
+      </p>
+      <p class="general-text">
+        Isolando
+        <i>k</i>
+        em cada experimento, temos:
+        <imagem>001_L4_QUI_I_C13.png</imagem>
+      </p>
+      <p class="general-text">
+        Como o valor de
+        <i>k</i>
+        é igual em ambos experimentos, temos:
+        <imagem>002_L4_QUI_I_C13.png</imagem>
+      </p>
+      <p class="general-text">
+        Ou seja,
+        <i>n</i>
+        5 2
+      </p>
+      <p class="general-text">
+        Logo, a lei de velocidade dessa reação é
+        <i>v</i>
+        5
+        <i>k</i>
+        ? [H2O2]2.
+      </p>
+      <p class="general-text">Mas e se a reação não elementar tiver mais de um reagente?</p>
+      <p class="general-text">Nesse caso, é preciso analisar experimentalmente a influência direta de cada reagente na velocidade da reação. Para isso, altera-se a concentração de um reagente por vez e compara-se o quanto a velocidade da reação foi modificada. Observe o exemplo:</p>
+      <p class="general-text">2 NO(g) 1 2 H2(g) &#10141; N2(g) 1 2 H2O(g)</p>
+    </p>
+    <boxe_17>
+      <imagem_inline>06_BOXE_17_CT</imagem_inline>
+      <boxe_17_titulo1>Fique ligado</boxe_17_titulo1>
+      <boxe_17_texto>
+        <i>v</i>
+        5
+        <i>k</i>
+        ? [R]
+        <i>n</i>
+        ;
+        <b_italico>n</b_italico>
+        5
+        <b>coeficiente estequiométrico</b>
+        para
+        <b>reações elementares</b>
+        . Para reações não elementares,o
+        <i>n</i>
+        é determinado pela análise da tabela experimental.
+      </boxe_17_texto>
+    </boxe_17>
+    <p class="general-text">
+      <tabela xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" aid:table="table" aid:trows="4" aid:tcols="4">
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="62.36220472440945">Experimento</Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="62.36220472440945">[NO] (mol/L)</Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="62.36220472440945">[H2] (mol/L)</Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="110.55118110236221">Velocidade (mol/L ? min)</Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="62.36220472440945">1</Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="62.36220472440945">0,1</Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="62.36220472440945">0,1</Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="110.55118110236221">0,3</Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="62.36220472440945">2</Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="62.36220472440945">0,2</Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="62.36220472440945">0,1</Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="110.55118110236221">0,6</Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="62.36220472440945">3</Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="62.36220472440945">0,1</Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="62.36220472440945">0,2</Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="110.55118110236221">1,2</Cell>
+      </tabela>
+      <p class="general-text">Para analisar a influência do reagente NO devemos escolher dois experimentos em que a concentração do H2 permaneça constante e a do NO varie (experimentos 1 e 2). A concentração do NO dobrou e a velocidade da reação também dobrou. De maneira semelhante ao que fizemos no primeiro exemplo, temos:</p>
+      <imagem>003_L4_QUI_I_C13.png</imagem>
+      <p class="general-text">
+        Ou seja,
+        <i>n</i>
+        5 1 e o expoente de [NO] na lei da velocidade é 1.Para analisar a influência do H2 selecionamos os experimentos 1 e 3, pois a concentração do NO não se altera e a do H2 sofre variação. O valor de [H2] dobrou, enquanto a velocidade quadruplicou:
+      </p>
+      <imagem>004_L4_QUI_I_C13.png</imagem>
+      <p class="general-text">
+        Ou seja,
+        <i>n</i>
+        5 2 e o expoente de [H2] na lei de velocidade é 2.
+      </p>
+      A lei de velocidade para a reação 2 NO(g) 1 2 H2(g) &#10141; N2(g) 1 2 H2O(g) é:
+      <i>v</i>
+      5
+      <i>k</i>
+      ? [NO] ? [H2]2
+      <p class="general-text">
+        Para determinar a unidade da constante cinética de uma reação,
+        <i>k</i>
+        , vamos supor, por exemplo, que a reação A &#10141; Produtos seja descrita pela lei de velocidade
+        <i>v</i>
+        5
+        <i>k</i>
+        ? [A], estando a unidade da velocidade em mol/L ? se a unidade de concentração de A em mol/L. Então:
+      </p>
+      <imagem>005_L4_QUI_I_C13a.png</imagem>
+      <p class="general-text">
+        Para esse caso, a unidade da constante será s21 ou
+        <imagem>005_L4_QUI_I_C13b.png</imagem>
+        .
+      </p>
+      <p class="general-text">
+        Analise esse outro exemplo, supondo uma reação A 1 B &#10141; Produtos, com lei de velocidade igual a
+        <i>v</i>
+        5
+        <i>k</i>
+        ? [A] ? [B] e as unidades de velocidade e concentração, respectivamente, em mol/L ? s e mol/L:
+      </p>
+      006_L4_QUI_I_C13.png
+      <imagem></imagem>
+      <p class="general-text">
+        Para esse caso, a unidade da constante
+        <i>k</i>
+        será
+        <imagem>008_L4_QUI_I_C13.eps</imagem>
+        .
+      </p>
+      <p class="general-text">
+        Denomina-se
+        <b>ordem da reação</b>
+        a soma dos expoentes das concentrações na lei de velocidade. Então, para nosso primeiro exemplo, a decomposição de H2O2 é de ordem 2, ou segunda ordem, e o nosso segundo exemplo, 2 NO(g) 1 2 H2(g) &#10141; N2(g) 1 2 H2O(g), é de ordem 3, ou terceira ordem. Podemos, ainda, dizer que a reação é de primeira ordem em relação ao NO e de segunda ordem em relação ao H2.
+      </p>
+    </p>
+    <boxe_17>
+      <imagem_inline>06_BOXE_17_CT</imagem_inline>
+      <boxe_17_titulo1>Fique ligado</boxe_17_titulo1>
+      A unidade da constante cinética (
+      <i>k</i>
+      ) é
+      <b>dependente da lei de velocidade</b>
+      .
+    </boxe_17>
+    <secao_01>
+      <imagem_inline>06_boxe_04</imagem_inline>
+      <secao_01_titulo1>Questão resolvida</secao_01_titulo1>
+      <exercicio_enunciado>
+        <b>1</b>
+        <b>ITA-SP</b>
+        Velocidades iniciais (vi) de decomposição de peróxido de hidrogênio foram determinadas em três experimentos (A, B e C), conduzidos na presença de I2(aq) sob as mesmas condições, mas com diferentes concentrações iniciais de peróxido ([H2O2]i), de acordo com os dados abaixo:
+      </exercicio_enunciado>
+      <tabela xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" aid:table="table" aid:trows="4" aid:tcols="3">
+        <tabela_titulo1 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="73.60000000000001">
+          <b>Experimento</b>
+        </tabela_titulo1>
+        <tabela_titulo1 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="81.05">
+          <b>[H2O2]i (mol/L)</b>
+        </tabela_titulo1>
+        <tabela_titulo1 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="89.3">
+          <b>vi (1023 mol/L ? s)</b>
+        </tabela_titulo1>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="73.60000000000001">
+          <b>A</b>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="81.05">
+          <tabela_texto_geral>0,750</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="89.3">
+          <tabela_texto_geral>2,745</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="73.60000000000001">
+          <b>B</b>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="81.05">
+          <tabela_texto_geral>0,500</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="89.3">
+          <tabela_texto_geral>1,830</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="73.60000000000001">
+          <b>C</b>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="81.05">
+          <tabela_texto_geral>0,250</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="89.3">
+          <tabela_texto_geral>0,915</tabela_texto_geral>
+        </tabela_texto_geral>
+      </tabela>
+      <secao_01_texto>Com base nesses dados, para a reação de decomposição do peróxido de hidrogênio:</secao_01_texto>
+      <exercicio_lista_letra>
+        <b>a)</b>
+        escreva a equação estequiométrica que representa a reação;
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>b)</b>
+        indique a ordem desta reação;
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>c)</b>
+        escreva a lei de velocidade da reação;
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>d)</b>
+        determine o valor numérico da constante de velocidade,
+        <i>k</i>
+        ;
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>e)</b>
+        indique a função do I2(aq) na reação.
+      </exercicio_lista_letra>
+      <titulo_resolucao>Resolução:</titulo_resolucao>
+      <exercicio_lista_letra>
+        <b>a)</b>
+        H2O2(L) &#10141; H2O(L) 1
+        <imagem>fracao_001</imagem>
+        O2(g)
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>b)</b>
+        A partir da tabela fornecida, temos:
+      </exercicio_lista_letra>
+      <imagem>LUMEN_V5_C05_QUIM_002</imagem>
+      <texto_resolucao>Quando a concentração do reagente triplica, a velocidade também triplica. Quando a concentração do reagente dobra, a velocidade também dobra, então concluímos que a proporção da influência do reagente na velocidade é de 1:1, logo a ordem da reação é 1. </texto_resolucao>
+      <exercicio_lista_letra>
+        <b>c)</b>
+        Lei da velocidade:
+        <i>v</i>
+        5
+        <i>k</i>
+        ? [H2O2]1
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>d)</b>
+        Substituindo os valores da primeira linha da tabela na lei de velocidade:
+      </exercicio_lista_letra>
+      <texto_resolucao>
+        2,745 5
+        <i>k</i>
+        ? (0,750)1 ~
+        <i>k</i>
+        5 3,66 s21
+      </texto_resolucao>
+      <exercicio_lista_letra>
+        <b>e)</b>
+        I2 acelera a reação de decomposição da água oxigenada, ou seja, funciona como catalisador.
+      </exercicio_lista_letra>
+    </secao_01>
+    <boxe_17>
+      <imagem_inline>06_BOXE_17_CT</imagem_inline>
+      <boxe_17_titulo1>Fique ligado</boxe_17_titulo1>
+      <boxe_17_texto>A lei de velocidade de uma reação global com mecanismo conhecido será igual à </boxe_17_texto>
+      <b>lei da velocidade da etapa lenta.</b>
+    </boxe_17>
+    <boxe_03>
+      <imagem_inline>06_BOXE_03</imagem_inline>
+      <boxe_03_titulo1>Discussão em sala</boxe_03_titulo1>
+      <boxe_03_titulo2>Cinética Química no cotidiano</boxe_03_titulo2>
+      <boxe_03_texto>Vamos refletir juntos em sala: Onde aplicamos a Cinética Química no cotidiano? Ao longo desta unidade, vimos que o prazo de validade dos alimentos é influenciado pela cinética das reações químicas; portanto, aplica-se na indústria de alimentos e de bebidas. Onde mais podemos ver a cinética atuando?</boxe_03_texto>
+    </boxe_03>
+    <p class="general-text">
+      <imagem_inline>01_titulo_1</imagem_inline>
+      <titulo1>Mecanismo de reações</titulo1>
+      <p class="general-text">As reações que ocorrem em mais de uma etapa são descritas por um mecanismo que mostra como os reagentes se transformam em produtos. Cada etapa de um processo global tem sua própria velocidade, ou seja, podemos encontrar etapas lentas e etapas rápidas em um mesmo mecanismo, sendo a etapa mais lenta a determinante para a cinética da reação global. Considera-se, nesse caso, que cada etapa de um mecanismo é elementar. Portanto, conhecendo o mecanismo da reação, podemos encontrar a lei de velocidade. Considere a reação representada a seguir.</p>
+      <p class="general-text">2 NO(g) 1 CL2(g) &#10141; 2 NOCL(g)</p>
+      <p class="general-text">Sabendo que ela ocorre em duas etapas:</p>
+      <texto_lista_romano>
+        <b>I.</b>
+        2 NO(g) &#10141; N2O2(g) (rápida)
+      </texto_lista_romano>
+      <texto_lista_romano>
+        <b>II.</b>
+        CL2(g) 1 N2O2(g) &#10141; 2 NOCL(g) (lenta)
+      </texto_lista_romano>
+      <p class="general-text">
+        A lei da velocidade da reação global é a lei da velocidade da etapa lenta:
+        <i>v</i>
+        5
+        <i>k</i>
+        ? [CL2] ? [N2O2]. Como cada etapa é tratada como reação elementar, os expoentes das concentrações de CL2 e N2O2 são iguais aos coeficientes estequiométricos da reação, ou seja, 1 para cada caso.
+      </p>
+      <p class="general-text">
+        <i>v</i>
+        5
+        <i>k</i>
+        ? [CL2]1 ? [N2O2]1, ou simplesmente
+        <i>v</i>
+        5
+        <i>k</i>
+        ? [CL2] ? [N2O2].
+      </p>
+    </p>
+    <p class="general-text">
+      <p class="general-text">Podemos representar graficamente reações queocorrem em mais de uma etapa. Observe o exemplo para uma reação genérica. </p>
+      <p class="general-text">A etapa determinante da velocidade será a mais lenta, ou seja, aquela que tiver maior energia de ativação. No exemplo, a segunda etapa é a mais lenta.</p>
+    </p>
+    <imagem>I001-2020-EM-QUI-2S-L2-FA-U4-C13.png</imagem>
+    <secao_01>
+      <imagem_inline> 01_titulo_1 </imagem_inline>
+      <secao_02_titulo1>Aplicando conhecimentos</secao_02_titulo1>
+      <exercicio_lista_letra>
+        <b>1</b>
+        Considere que a seguinte reação elementar, descrita pela equação química, esteja ocorrendo:
+      </exercicio_lista_letra>
+      <texto_geral_exercicio>CH4(g) 1 CL2(g) &#10141; H3CCL(g) 1 HCL(g)</texto_geral_exercicio>
+      <exercicio_enunciado>Qual é a lei de velocidade e a ordem da reação?</exercicio_enunciado>
+      <exercicio_lista_letra>
+        <b>a)</b>
+        v 5 k ? [CH4] ? [CL2], ordem 1.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>b)</b>
+        v 5 k ? [CH4] ? [CL2], ordem 2.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>c)</b>
+        v 5 k ? [CH4]2 ? [CL2], ordem 2.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>d)</b>
+        v 5 k ? [CH4] ? [CL2]2, ordem 3.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>e)</b>
+        v 5 k ? [CH4] ? [CL2], ordem 3.
+      </exercicio_lista_letra>
+      <exercicio_enunciado>
+        <b>2</b>
+        A reação representada por C2H2(g) 1 2 H2(g) &#10141;&#10141; C2H6(g) ocorre em três etapas:
+      </exercicio_enunciado>
+      <exercicio_lista_romano>
+        <b>I.</b>
+        C2H2(g) 1 2,5 O2(g) &#10141; 2 CO2(g) 1 H2O(L) (rápida)
+      </exercicio_lista_romano>
+      <exercicio_lista_romano>
+        <b>II.</b>
+        2 H2(g) 1 O2(g) &#10141; 2 H2O(L)	(lenta)
+      </exercicio_lista_romano>
+      <exercicio_lista_romano>
+        <b>III.</b>
+        2 CO2(g) 1 3 H2O(L) &#10141; C2H6(g) 1 3,5 O2(g)
+      </exercicio_lista_romano>
+      <exercicio_enunciado>(rápida)</exercicio_enunciado>
+      <exercicio_enunciado>Qual é a lei de velocidade da reação?</exercicio_enunciado>
+      <exercicio_lista_letra>
+        <b>3</b>
+        Uma reação hipotética entre os reagentes A e B foi estudada cineticamente em laboratório e os dados obtidos foram registrados na seguinte tabela:
+      </exercicio_lista_letra>
+      <tabela xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" aid:table="table" aid:trows="4" aid:tcols="4">
+        <tabela_titulo1 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="62.362204724409445">Experimento</tabela_titulo1>
+        <tabela_titulo1 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="51.023622047244096">[A] (mol/L)</tabela_titulo1>
+        <tabela_titulo1 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="51.023622047244096">[B] (mol/L)</tabela_titulo1>
+        <tabela_titulo1 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="59.52755905511811">Velocidade (mol/L ? s)</tabela_titulo1>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="62.362204724409445">
+          <tabela_texto_geral>1</tabela_texto_geral>
+        </tabela_texto_geral>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="51.023622047244096">
+          <tabela_texto_geral>0,1</tabela_texto_geral>
+        </Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="51.023622047244096">
+          <tabela_texto_geral>0,2</tabela_texto_geral>
+        </Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="59.52755905511811">
+          <tabela_texto_geral>24</tabela_texto_geral>
+        </Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="62.362204724409445">
+          <tabela_texto_geral>2</tabela_texto_geral>
+        </Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="51.023622047244096">
+          <tabela_texto_geral>0,2</tabela_texto_geral>
+        </Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="51.023622047244096">
+          <tabela_texto_geral>0,2</tabela_texto_geral>
+        </Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="59.52755905511811">
+          <tabela_texto_geral>48</tabela_texto_geral>
+        </Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="62.362204724409445">
+          <tabela_texto_geral>3</tabela_texto_geral>
+        </Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="51.023622047244096">
+          <tabela_texto_geral>0,1</tabela_texto_geral>
+        </Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="51.023622047244096">
+          <tabela_texto_geral>0,4</tabela_texto_geral>
+        </Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="59.52755905511811">
+          <tabela_texto_geral>192</tabela_texto_geral>
+        </Cell>
+      </tabela>
+      <exercicio_lista_letra>
+        <b>a)</b>
+        Qual é a lei de velocidade da reação?
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>b)</b>
+        Qual é a ordem da reação?
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>c)</b>
+        Qual é o valor da constante cinética?
+      </exercicio_lista_letra>
+      <exercicio_enunciado>
+        <b>4</b>
+        A reação não elementar descrita por NO2(g) 1 1 CO(g) &#10141; CO2(g) 1 NO(g) não tem mecanismo conhecido. Para determinar a lei de velocidade da reação, foram realizados experimentos cinéticos cujos dados estão organizados na tabela a seguir.
+      </exercicio_enunciado>
+      <tabela xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" aid:table="table" aid:trows="4" aid:tcols="4">
+        <tabela_titulo1 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="65.19685039370079">
+          <b>Experimento</b>
+        </tabela_titulo1>
+        <tabela_titulo1 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="51.023622047244096">
+          <b>[NO2] (mol/L)</b>
+        </tabela_titulo1>
+        <tabela_titulo1 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="51.023622047244096">
+          <b>[CO] (mol/L)</b>
+        </tabela_titulo1>
+        <tabela_titulo1 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="56.69291338582678">
+          <b>Velocidade (mol/L ? s)</b>
+        </tabela_titulo1>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="65.19685039370079">
+          <tabela_texto_geral>1</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="51.023622047244096">
+          <tabela_texto_geral>2</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="51.023622047244096">
+          <tabela_texto_geral>2</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="56.69291338582678">
+          <tabela_texto_geral>5</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="65.19685039370079">
+          <tabela_texto_geral>2</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="51.023622047244096">
+          <tabela_texto_geral>4</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="51.023622047244096">
+          <tabela_texto_geral>2</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="56.69291338582678">
+          <tabela_texto_geral>20</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="65.19685039370079">
+          <tabela_texto_geral>3</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="51.023622047244096">
+          <tabela_texto_geral>4</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="51.023622047244096">
+          <tabela_texto_geral>4</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="56.69291338582678">
+          <tabela_texto_geral>20</tabela_texto_geral>
+        </tabela_texto_geral>
+      </tabela>
+      <exercicio_lista_letra>
+        <b>a)</b>
+        Qual é a lei de velocidade?
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>b)</b>
+        Qual é a ordem da reação em relação ao NO2? E em relação ao CO?
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>c)</b>
+        O que acontece com a velocidade se a concentração de NO2 triplicar?
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>d)</b>
+        O que acontece com a velocidade se a concentração de CO dobrar?
+      </exercicio_lista_letra>
+      <exercicio_enunciado>
+        <b>5</b>
+        <b>UFRGS</b>
+        Para a obtenção de um determinado produto, realiza-se uma reação em 2 etapas. O caminho dessa reação é representado no diagrama abaixo.
+      </exercicio_enunciado>
+      <imagem>I002-2020-EM-QUI-2S-L2-FA-U4-C13.png</imagem>
+      <exercicio_enunciado>Considere as afirmações abaixo sobre essa reação.</exercicio_enunciado>
+      <exercicio_lista_romano>
+        <b>I.</b>
+        A etapa determinante da velocidade da reação é a etapa 2.
+      </exercicio_lista_romano>
+      <exercicio_lista_romano>
+        <b>II.</b>
+        A reação é exotérmica.
+      </exercicio_lista_romano>
+      <exercicio_lista_romano>
+        <b>III.</b>
+        A energia de ativação da etapa 1 é maior que a energia de ativação da etapa 2.
+      </exercicio_lista_romano>
+      <texto_geral_exercicio>Quais estão corretas?</texto_geral_exercicio>
+      <exercicio_lista_letra>
+        <b>a)</b>
+        Apenas I.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>b)</b>
+        Apenas II.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>c)</b>
+        Apenas III.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>d)</b>
+        Apenas II e III.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>e)</b>
+        I, II e III.
+      </exercicio_lista_letra>
+    </secao_01>
+  </pg58-61>
+  <pg62-65>
+    <secao_03>
+      <exercicio_enunciado>
+        <b>1</b>
+        <b>UEL-PR 2018</b>
+        A decomposição anaeróbica da matéria orgânica que ocorre durante a putrefação de cadáveres produz, dentre outros gases, o metano (CH4). Na combustão completa do CH4, na presença de oxigênio (O2), há formação de água (H2O) e dióxido de carbono (CO2), ambos gasosos, sendo este último menos prejudicial ao meio ambiente que o CH4. Com base nos conhecimentos sobre cinética e considerando que a reação de combustão do CH4 ocorra num sistema isolado, atribua V (verdadeiro) ou F (falso) às afirmativas a seguir.
+      </exercicio_enunciado>
+      <texto_geral_exercicio>(   )	A adição de um catalisador na mistura aumenta o rendimento da reação e promove a formação de outros produtos.</texto_geral_exercicio>
+      <texto_geral_exercicio>(   )	A diminuição do volume ocupado pela mistura gasosa resulta no aumento da velocidade da reação.</texto_geral_exercicio>
+      <texto_geral_exercicio>(   )	A velocidade de decomposição de CH4 é a metade da velocidade de formação de H2O.</texto_geral_exercicio>
+      <texto_geral_exercicio>(   )	A velocidade da reação dobra quando as concentrações de CH4 e O2 forem duplicadas.</texto_geral_exercicio>
+      <texto_geral_exercicio>(   )	A velocidade de formação dos produtos, CO2(g) e H2O(g), da reação de combustão é a mesma.</texto_geral_exercicio>
+      <texto_geral_exercicio>Assinale a alternativa que contém, de cima para baixo, a sequência correta.</texto_geral_exercicio>
+      <exercicio_lista_letra>
+        <b>a)</b>
+        F – V – F – V – F
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>b)</b>
+        F – V – V – F – F
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>c)</b>
+        F – F – V – F – V
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>d)</b>
+        V – V – F – V – F
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>e)</b>
+        V – F – V – F – V
+      </exercicio_lista_letra>
+      <exercicio_enunciado>
+        <b>2</b>
+        <b>Mackenzie-SP 2018</b>
+        O processo equacionado por NO(g) 1 O3(g) &#10141; NO2(g) 1 O2(g) é classificado, em termos cinéticos, como elementar e de segunda ordem. Desse modo, ao serem feitos dois experimentos, ambos sob determinada temperatura “T”, ao duplicar-se tanto a concentração do NO como do O3 em relação ao primeiro experimento, o segundo experimento terá sua velocidade
+      </exercicio_enunciado>
+      <exercicio_lista_letra>
+        <b>a)</b>
+        reduzida a um quarto.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>b)</b>
+        reduzida à metade.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>c)</b>
+        mantida constante.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>d)</b>
+        duplicada.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>e)</b>
+        quadruplicada.
+      </exercicio_lista_letra>
+      <exercicio_enunciado>
+        <b>3</b>
+        <b>UEM-PR 2018</b>
+        Os seguintes dados foram medidos para a reação do monóxido de nitrogênio com hidrogênio.
+      </exercicio_enunciado>
+      2 NO(g) 1 2 H2(g) &#10141; N2(g) 1 2 H2O(g)
+      <tabela xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" aid:table="table" aid:trows="4" aid:tcols="4">
+        <tabela_titulo1 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="65.19685039370079">Experimento</tabela_titulo1>
+        <tabela_titulo1 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="42.51968503937008">[NO] (mol/L)</tabela_titulo1>
+        <tabela_titulo1 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="42.51968503937008">[H2] (mol/L)</tabela_titulo1>
+        <tabela_titulo1 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="79.37007874015748">Velocidade inicial (mol/L ? s)</tabela_titulo1>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="65.19685039370079">1</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="42.51968503937008">0,10</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="42.51968503937008">0,10</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="79.37007874015748">1,23 ? 1023</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="65.19685039370079">2</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="42.51968503937008">0,10</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="42.51968503937008">0,20</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="79.37007874015748">2,46 ? 1023</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="65.19685039370079">3</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="42.51968503937008">0,20</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="42.51968503937008">0,10</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="79.37007874015748">4,92 ? 1023</tabela_texto_geral>
+      </tabela>
+    </secao_03>
+    <secao_03>
+      Considerando observações experimentais e conhecimentos sobre o assunto, assinale o que for correto.
+      <exercicio_lista_questao>
+        <b>01.</b>
+        A lei da velocidade para a reação é v 5 k ? [NO]2 ? [H2]2.
+      </exercicio_lista_questao>
+      <exercicio_lista_questao>
+        <b>02.</b>
+        A velocidade da reação diminui com o tempo, pois as [NO] e [H2] diminuem e, portanto, o número de colisões efetivas é menor.
+      </exercicio_lista_questao>
+      <exercicio_lista_questao>
+        <b>04.</b>
+        A velocidade de formação de N2(g) é o dobro da velocidade de consumo de NO(g).
+      </exercicio_lista_questao>
+      <exercicio_lista_questao>
+        <b>08.</b>
+        Quando a [NO] 5 [H2] 5 0,05 mol/L, a velocidade da reação é 0,615 ? 1023 mol/L ? s.
+      </exercicio_lista_questao>
+      <exercicio_lista_questao>
+        <b>16.</b>
+        A constante de velocidade da reação não pode ser determinada a partir dos experimentos 1, 2 e 3.
+      </exercicio_lista_questao>
+      <b>Soma:</b>
+      <imagem>FAKE_INPUT</imagem>
+      <exercicio_enunciado>
+        <b>4</b>
+        <b>EsPCEx-SP 2018</b>
+        O estudo da velocidade das reações é muito importante para as indústrias químicas, pois conhecê-la permite a proposição de mecanismos para uma maior produção. A tabela abaixo apresenta os resultados experimentais obtidos para um estudo cinético de uma reação química genérica elementar.
+      </exercicio_enunciado>
+      <texto_geral_exercicio>a A 1 b B 1  C &#10141; D 1 E</texto_geral_exercicio>
+      <tabela xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" aid:table="table" aid:trows="5" aid:tcols="5">
+        <tabela_titulo1 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="65.19685039370079">Experimento</tabela_titulo1>
+        <tabela_titulo1 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="25.511811023622048">[A]</tabela_titulo1>
+        <tabela_titulo1 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="25.511811023622048">[B]</tabela_titulo1>
+        <tabela_titulo1 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="25.511811023622048">[C]</tabela_titulo1>
+        <tabela_titulo1 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="73.70078740157481">Velocidade (mol/L ? s)</tabela_titulo1>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="65.19685039370079">1</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="25.511811023622048">0,10</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="25.511811023622048">0,10</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="25.511811023622048">0,10</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="73.70078740157481">4 ? 1024</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="65.19685039370079">2</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="25.511811023622048">0,20</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="25.511811023622048">0,10</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="25.511811023622048">0,10</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="73.70078740157481">8 ? 1024</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="65.19685039370079">3</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="25.511811023622048">0,10</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="25.511811023622048">0,20</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="25.511811023622048">0,10</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="73.70078740157481">8 ? 1024</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="65.19685039370079">4</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="25.511811023622048">0,10</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="25.511811023622048">0,10</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="25.511811023622048">0,20</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="73.70078740157481">1,6 ? 1023</tabela_texto_geral>
+      </tabela>
+      <texto_geral_exercicio>A partir dos resultados experimentais apresentados na tabela, pode-se afirmar que a expressão da equação da lei da velocidade (v) para essa reação química é</texto_geral_exercicio>
+      <exercicio_lista_letra>
+        <b>a)</b>
+        v 5 k ? [A] ? [B] ? [C]2
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>b)</b>
+        v 5 k ? [A]2 ? [B] ? [C]2
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>c)</b>
+        v 5 k ? [A]2 ? [B]2 ? [C]
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>d)</b>
+        v 5 k ? [A] ? [B] ? [C]
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>e)</b>
+        v 5 k ? [A]0 ? [B] ? [C]
+      </exercicio_lista_letra>
+      <exercicio_enunciado>
+        <b>5</b>
+        <b>FMJ-SP 2020</b>
+        Considere a reação genérica entre as substâncias AB e C2:
+      </exercicio_enunciado>
+      <texto_geral_exercicio>4 AB 1 C2 &#10141; 2 B2 1 2 A2C</texto_geral_exercicio>
+      <texto_geral_exercicio>O estudo cinético dessa reação concluiu que ela ocorre em três etapas elementares:</texto_geral_exercicio>
+      <texto_geral_exercicio>Etapa 1: AB 1 C2 &#10141; ACCB</texto_geral_exercicio>
+      <texto_geral_exercicio>Etapa 2: ACCB 1 AB &#10141; 2 ACB</texto_geral_exercicio>
+      <texto_geral_exercicio>Etapa 3: 2 ACB 1 2 AB &#10141; 2 B2 1 2 A2C</texto_geral_exercicio>
+      <texto_geral_exercicio>O gráfico mostra a variação de energia associada a cada etapa da reação e a tabela apresenta as velocidades relativas da reação para determinadas combinações de concentrações dos reagentes.</texto_geral_exercicio>
+    </secao_03>
+    <imagem>lumen_2022_3s_l5_qui_fa_u2_cap6_q004.png</imagem>
+    <tabela>
+      <Table xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" aid:table="table" aid:trows="4" aid:tcols="3">
+        <tabela_titulo1 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="76.11023622047155">[AB] (mol/L)</tabela_titulo1>
+        <tabela_titulo1 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="76.11023622047155">[C2] (mol/L)</tabela_titulo1>
+        <tabela_titulo1 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="76.11023622047155">Velocidade relativa</tabela_titulo1>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="76.11023622047155">0,1</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="76.11023622047155">0,1</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="76.11023622047155">1</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="76.11023622047155">0,1</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="76.11023622047155">0,2</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="76.11023622047155">2</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="76.11023622047155">0,2</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="76.11023622047155">0,2</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="76.11023622047155">2</tabela_texto_geral>
+      </Table>
+    </tabela>
+    <secao_03>
+      <exercicio_lista_letra>
+        <b>a)</b>
+        Qual das etapas da reação genérica apresentada é a mais lenta? Justifique sua resposta.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>b)</b>
+        Escreva a expressão para a lei da velocidade da reação entre as substâncias AB e C2. Qual o valor da ordem global dessa reação?
+      </exercicio_lista_letra>
+      <exercicio_enunciado>
+        <b>6</b>
+        <b>ITA-SP 2017</b>
+        A reação química genérica X &#10141; Y tem lei de velocidade de primeira ordem em relação ao reagente X. À medida que a reação ocorre a uma temperatura constante, é ERRADO afirmar que:
+      </exercicio_enunciado>
+      <exercicio_lista_letra>
+        <b>a)</b>
+        a constante de velocidade da reação não se altera.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>b)</b>
+        o tempo de meia-vida do reagente X permanece constante.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>c)</b>
+        a energia de ativação da reação não se altera.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>d)</b>
+        a velocidade da reação permanece constante.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>e)</b>
+        a ordem da reação não se altera.
+      </exercicio_lista_letra>
+      <exercicio_enunciado>
+        <b>7</b>
+        <b>UFRGS 2020</b>
+        A reação do relógio de iodo é bastante comum em feiras de ciências e em demonstrações didáticas. Nela, a ocorrência de várias reações que envolvem iodo e compostos, contendo enxofre em diversos estados de oxidação, leva à formação de uma coloração azul súbita, dependente da concentração dos reagentes. Uma possibilidade de realização dessa reação usa persulfato, tiossulfato e iodeto, e, nesse caso, uma das etapas é a reação entre o íon persulfato (S2O822) e o íon iodeto (I2), cuja velocidade de decomposição do persulfato foi determinada e encontra-se na tabela abaixo.
+      </exercicio_enunciado>
+      <tabela xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" aid:table="table" aid:trows="6" aid:tcols="4">
+        <tabela_titulo1 aid:table="cell" aid:crows="2" aid:ccols="1" aid:ccolwidth="59.527559055118104">Experimento</tabela_titulo1>
+        <tabela_titulo1 aid:table="cell" aid:crows="1" aid:ccols="2" aid:ccolwidth="83.52245542885734">Concentrações iniciais (mol  ?  L21)</tabela_titulo1>
+        <tabela_titulo1 aid:table="cell" aid:crows="2" aid:ccols="1" aid:ccolwidth="73.70078740157481">Velocidade inicial(mol ? L21 ? S21)</tabela_titulo1>
+        <tabela_titulo1 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="41.33832986595733">S2O822</tabela_titulo1>
+        <tabela_titulo1 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="42.184125562900014">I2</tabela_titulo1>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="59.527559055118104">1</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="41.33832986595733">0,08</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="42.184125562900014">0,16</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="73.70078740157481">0,512</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="59.527559055118104">2</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="41.33832986595733">0,08</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="42.184125562900014">0,32</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="73.70078740157481">1,024</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="59.527559055118104">3</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="41.33832986595733">0,32</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="42.184125562900014">0,16</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="73.70078740157481">2,048</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="59.527559055118104">4</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="41.33832986595733">0,16</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="42.184125562900014">0,40</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="73.70078740157481">3</tabela_texto_geral>
+      </tabela>
+      <texto_geral_exercicio>Assinale a alternativa que apresenta a velocidade inicial x do experimento 4, em mol ? L21 ? s21, tendo em vista as condições expressas acima.</texto_geral_exercicio>
+      <exercicio_lista_letra>
+        <b>a)</b>
+        0,512
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>b)</b>
+        2,048
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>c)</b>
+        2,560
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>d)</b>
+        6,400
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>e)</b>
+        8,120
+      </exercicio_lista_letra>
+      <exercicio_enunciado>
+        <b>8</b>
+        <b>ITA-SP 2017</b>
+        Considere que a decomposição do N2O5, representada pela equação química global:
+      </exercicio_enunciado>
+      <texto_geral_exercicio>2 N2O5 &#10141; 4 NO2 1 O2</texto_geral_exercicio>
+      <texto_geral_exercicio>Apresente lei de velocidade de primeira ordem. No instante inicial da reação, a concentração de N2O5 é de 0,10 mol/L e a velocidade de consumo desta espécie é de 0,022 mol/L ? min. Assinale a opção que apresenta o valor da constante de velocidade da reação global, em min21.</texto_geral_exercicio>
+      <exercicio_lista_letra>
+        <b>a)</b>
+        0,0022
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>b)</b>
+        0,011
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>c)</b>
+        0,022
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>d)</b>
+        0,11
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>e)</b>
+        0,22
+      </exercicio_lista_letra>
+    </secao_03>
+    <secao_05>
+      <secao_05_titulo1>No Enem é assim</secao_05_titulo1>
+      <secao_05_texto>As questões selecionadas nesta seção são prioritariamente do Enem, mas questões de vestibulares diversos que apresentam características semelhantes aos itens do referido exame também foram usadas como recurso para estudo.</secao_05_texto>
+    </secao_05>
+    <secao_05>
+      <exercicio_enunciado>
+        <b>1</b>
+        <b>Enem 2020</b>
+        A nanotecnologia pode ser caracterizada quando os compostos estão na ordem de milionésimos de milímetros, como na utilização de nanomateriais catalíticos nos processos industriais. O uso desses materiais aumenta a eficiência da produção, consome menos energia e gera menores quantidades de resíduos. O sucesso dessa aplicação tecnológica muitas vezes está relacionado ao aumento da velocidade da reação química envolvida. O êxito da aplicação dessa tecnologia é por causa da realização de reações químicas que ocorrem em condições de
+      </exercicio_enunciado>
+      <exercicio_lista_letra>
+        <b>a)</b>
+        alta pressão.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>b)</b>
+        alta temperatura.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>c)</b>
+        excesso de reagentes.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>d)</b>
+        maior superfície de contato.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>e)</b>
+        elevada energia de ativação.
+      </exercicio_lista_letra>
+      <exercicio_enunciado>
+        <b>2</b>
+        <b>ITA-SP</b>
+        A reação entre os íons brometo e bromato, em meio aquoso e ácido, pode ser representada pela seguinte equação química balanceada:
+      </exercicio_enunciado>
+      <texto_geral_exercicio>5 Br2(aq) 1 BrO32(aq) 1 6 H1(aq) &#10141; 3 Br2(aq) 1 3 H2O(L)Sabendo que a velocidade de desaparecimento do íon bromato é igual a 5,63 ? 1026 mol/L ? s, assinale a alternativa que apresenta o valor CORRETO para a velocidade de aparecimento do bromo, Br2, expressa em mol/L ? s.</texto_geral_exercicio>
+      <exercicio_lista_letra>
+        <b>a)</b>
+        1,69 ? 1025
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>b)</b>
+        5,63 ? 1026
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>c)</b>
+        1,90 ? 1026
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>d)</b>
+        1,13 ? 1026
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>e)</b>
+        1,80 ? 10216
+      </exercicio_lista_letra>
+      <exercicio_enunciado>
+        <b>3</b>
+        <b>Udesc</b>
+        Um fogão de cozinha consome 134,4 L de metano por hora, medidos nas CNTP. Nas mesmas condições, a velocidade de formação do dióxido de carbono, resultante da combustão completa do metano, é:
+      </exercicio_enunciado>
+      <exercicio_lista_letra>
+        <b>a)</b>
+        6 moléculas/h
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>b)</b>
+        6,02 ? 1023 moléculas/h
+      </exercicio_lista_letra>
+      <b>c)</b>
+      <exercicio_lista_letra>	8,4 mol/h</exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>d)</b>
+        22,4 L/h
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>e)</b>
+        6 mol/h
+      </exercicio_lista_letra>
+      <exercicio_enunciado>
+        <b>4</b>
+        <b>UFRGS</b>
+        Co
+      </exercicio_enunciado>
+      <texto_geral_exercicio>nsidere a reação abaixo:N2(g) 1 3 H2(g) &#10141; 2 NH3(g)</texto_geral_exercicio>
+      <texto_geral_exercicio>Para determinar a velocidade da reação, monitorou-se a concentração de hidrogênio ao longo do tempo, obtendo-se os dados contidos no quadro que segue.</texto_geral_exercicio>
+      <tabela xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" aid:table="table" aid:trows="3" aid:tcols="2">
+        <tabela_titulo1 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="60.95">Tempo (s)</tabela_titulo1>
+        <tabela_titulo1 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="113.3">Concentração (mol/L)</tabela_titulo1>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="60.95">0</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="113.3">1,00</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="60.95">120</tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="113.3">0,40</tabela_texto_geral>
+      </tabela>
+    </secao_05>
+    <secao_05>
+      <texto_geral_exercicio>Com base nos dados apresentados, é correto afirmar que a velocidade média de formação da amônia será</texto_geral_exercicio>
+      <exercicio_lista_letra>
+        <b>a)</b>
+        0,10 mol/L ? min
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>b)</b>
+        0,20 mol/L ? min
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>c)</b>
+        0,30 mol/L ? min
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>d)</b>
+        0,40 mol/L ? min
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>e)</b>
+        0,60 mol/L ? min
+      </exercicio_lista_letra>
+      <exercicio_enunciado>
+        <b>5</b>
+        <b>Uepa</b>
+        Um dos problemas ambientais na atualidade relaciona-se com o desaparecimento da camada de ozônio na atmosfera. É importante notar que, quando desaparece o gás ozônio, aparece imediatamente o gás oxigênio de acordo com a equação abaixo:
+      </exercicio_enunciado>
+      <imagem>esquema_001_quim_V5_FA_C06</imagem>
+      <texto_geral_exercicio>Considerando a velocidade de aparecimento de O2 igual a 12 mol/L ? s, a velocidade de desaparecimento do ozônio na atmosfera em mol/L ? s é:</texto_geral_exercicio>
+      <exercicio_lista_letra>
+        <b>a)</b>
+        12
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>b)</b>
+        8
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>c)</b>
+        6
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>d)</b>
+        4
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>e)</b>
+        2
+      </exercicio_lista_letra>
+      <exercicio_enunciado>
+        <b>6</b>
+        <b>Uespi</b>
+        A combustão completa do butanol é representada pela equação:
+      </exercicio_enunciado>
+      <texto_geral_exercicio>C4H9OH(L) 1 6 O2(g) &#10141; 4 CO2(g) 1 5 H2O(L)</texto_geral_exercicio>
+      <texto_geral_exercicio>Sabendo que em 1 hora de reação foram produzidos 15,84 kg de gás carbônico, é correto afirmar que a velocidade da reação acima, expressa em mols de butanol consumido por minuto, é:</texto_geral_exercicio>
+      <texto_geral_exercicio>
+        <b>Dados:</b>
+        H 5 1; C 5 12; O 5 16
+      </texto_geral_exercicio>
+      <exercicio_lista_letra>
+        <b>a)</b>
+        1,5
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>b)</b>
+        3,0
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>c)</b>
+        4,5
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>d)</b>
+        6,0
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>e)</b>
+        7,0
+      </exercicio_lista_letra>
+      <exercicio_enunciado>
+        <b>7</b>
+        <b>Cefet-MG</b>
+        Em um recipiente de vidro preenchido com peróxido de hidrogênio foram inseridas pequenas porções de óxido de manganês sólido. Em seguida, tampou-se o recipiente e observou-se a formação exotérmica de bolhas de gás oxigênio, conforme a equação seguinte.
+      </exercicio_enunciado>
+      <imagem>esquema_002_quim_V5_FA_C06</imagem>
+    </secao_05>
+    <secao_05>
+      <exercicio_enunciado>A velocidade da decomposição do peróxido de hidrogênio é proporcional</exercicio_enunciado>
+      <exercicio_lista_letra>
+        <b>a)</b>
+        à elevação da pressão interna do recipiente de vidro
+      </exercicio_lista_letra>
+      .
+      <exercicio_lista_letra>
+        <b>b)</b>
+        à quantidade de matéria das substâncias líquidas da reação.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>c)</b>
+        à quantidade de calor absorvida pelo gás oxigênio e pela água.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>d)</b>
+        à superfície de contato das partículas de óxido de manganês.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>e)</b>
+        ao número de complexos ativados formados entre o gás oxigênio e a água.
+      </exercicio_lista_letra>
+      <exercicio_citado>
+        <b>8</b>
+        <b>EsPCEx-SP</b>
+        Uma amostra de açúcar exposta ao oxigênio do ar pode demorar muito tempo para reagir. Entretanto, em nosso organismo, o açúcar é consumido em poucos segundos, quando entra em contato com o oxigênio. Tal fato se deve à presença de enzimas que agem sobre as moléculas do açúcar, criando estruturas que reagem mais facilmente com o oxigênio...
+      </exercicio_citado>
+      <fonte>
+        Usberco e Salvador,
+        <i>Química</i>
+        , vol 2. FTD, SP, pág. 377, 2009. (Adaptado).
+      </fonte>
+      <texto_geral_exercicio>Baseado no texto acima, a alternativa que justifica corretamente a ação química dessas enzimas é:</texto_geral_exercicio>
+      <exercicio_lista_letra>
+        <b>a)</b>
+        As enzimas atuam como inibidoras de reação, por ocasionarem a diminuição da energia de ativação do processo e, consequentemente, acelerarem a reação entre o açúcar e o oxigênio.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>b)</b>
+        As enzimas atuam como inibidoras de reação, por ocasionarem o aumento da energia de ativação do processo e, consequentemente, acelerarem a reação entre o açúcar e o oxigênio.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>c)</b>
+        As enzimas atuam como catalisadores da reação, por ocasionarem o aumento da energia de ativação do processo, fornecendo mais energia para a realização da reação entre o açúcar e o oxigênio.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>d)</b>
+        As enzimas atuam como catalisadores da reação, por ocasionarem a diminuição da energia de ativação do processo, provendo rotas alternativas de reação menos energéticas, acelerando a reação entre o açúcar e o oxigênio.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>e)</b>
+        As enzimas atuam como catalisadores da reação, por ocasionarem a diminuição da energia de ativação do processo ao inibirem a ação oxidante do oxigênio, desacelerando a reação entre o açúcar e o oxigênio.
+      </exercicio_lista_letra>
+      <exercicio_citado>
+        <b>9</b>
+        <b>Enem PPL</b>
+        A hematita (a–Fe2O3), além de ser utilizada para obtenção do aço, também é utilizada como um catalisador de processos químicos, como na síntese da amônia, importante matéria-prima da indústria agroquímica.
+      </exercicio_citado>
+      <fonte>
+        MEDEIROS, M. A. F.
+        <i>Química Nova na Escola</i>
+        , São Paulo, v. 32, n. 3, 2010. (Adaptado).
+      </fonte>
+    </secao_05>
+    <secao_05>
+      <texto_geral_exercicio>O uso da hematita viabiliza economicamente a produção da amônia, porque</texto_geral_exercicio>
+      <exercicio_lista_letra>
+        <b>a)</b>
+        diminui a rapidez da reação.
+      </exercicio_lista_letra>
+      <b>b)</b>
+      <exercicio_lista_letra>	diminui a energia de ativação da reação.</exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>c)</b>
+        aumenta a variação da entalpia da reação.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>d)</b>
+        aumenta a quantidade de produtos formados.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>e)</b>
+        aumenta o tempo do processamento da reação.
+      </exercicio_lista_letra>
+      <exercicio_enunciado>
+        <b>10</b>
+        <b>Enem PPL 2020</b>
+        O peróxido de hidrogênio é um produto secundário do metabolismo celular e apresenta algumas funções úteis, mas, quando em excesso, é prejudicial, gerando radicais que são tóxicos para as células. Para se defender, o organismo vivo utiliza a enzima catalase, que decompõe H2O2 em H2O e O2. A energia de reação de decomposição, quando na presença e ausência da catalase, está mostrada no gráfico.
+      </exercicio_enunciado>
+      lumen_2022_3s_l5_qui_fa_u2_cap6_q005
+      <imagem>.png</imagem>
+      <texto_geral_exercicio>Na situação descrita, o organismo utiliza a catalase porque ela</texto_geral_exercicio>
+      <exercicio_lista_letra>
+        <b>a)</b>
+        diminui a energia de ativação.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>b)</b>
+        permite maior rendimento da reação.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>c)</b>
+        diminui o valor da entalpia da reação.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>d)</b>
+        consome rapidamente o oxigênio do reagente.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>e)</b>
+        reage rapidamente com o peróxido de hidrogênio.
+      </exercicio_lista_letra>
+      <exercicio_enunciado>
+        <b>11</b>
+        <b>PUC-Rio</b>
+        A reação química entre dois reagentes ocorre de tal forma que, ao se triplicar a concentração do reagente A, mantendo-se fixa a concentração do reagente B, observa-se o aumento de nove vezes na velocidade inicial de reação. Por outro lado, a variação da concentração do reagente B não acarreta mudança da velocidade inicial da reação. Assim, é correto afirmar que a equação geral da lei de velocidade da reação, onde v é a velocidade inicial e k é a constante de velocidade, é:
+      </exercicio_enunciado>
+      <exercicio_lista_letra>
+        <b>a)</b>
+        <i>v</i>
+        5
+        <i>k</i>
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>b)</b>
+        <i>v</i>
+        5
+        <i>k</i>
+        ? [reagente A]
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>c)</b>
+        <i>v</i>
+        5
+        <i>k</i>
+        ? [reagente A]2
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>d)</b>
+        <i>v</i>
+        5
+        <i>k</i>
+        ? [reagente A]3
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>e)</b>
+        <i>v</i>
+        5
+        <i>k</i>
+        ? [reagente A] ? [reagente B]
+      </exercicio_lista_letra>
+    </secao_05>
+  </pg62-65>
+</Root>

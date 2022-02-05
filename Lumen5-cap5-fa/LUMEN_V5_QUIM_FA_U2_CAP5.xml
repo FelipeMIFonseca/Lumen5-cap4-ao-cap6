@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root>
+  <pg48>
+    <TITULO_CAP>5</TITULO_CAP>
+    <TITULO_CAP_TEXTO>Fatores que influenciama velocidade das reações</TITULO_CAP_TEXTO>
+    <imagem>F001-2020-EM-QUI-2S-L2-FA-U4-C12.png</imagem>
+    <p class="img-subtitle">Comprimido efervescente em água.</p>
+    <p class="quote">
+      <p class="quote-title">Líquido gelado faz comprimido efervescente borbulhar devagar</p>
+      <p class="quote">Por que os comprimidos efervescentes se dissolvem mais rápido em água natural do que em água gelada?</p>
+      <p class="quote">Porque o calor ajuda na reação. O comprimido é formado basicamente por carbonato, bicarbonato de sódio e um ácido. Quando colocadas na água, essas substâncias reagem. Como em qualquer outra combinação química, o calor acelera o processo. “Para que uma reação aconteça, é preciso que as moléculas das substâncias envolvidas se choquem umas com as outras”, explica o químico Atílio Vanin, da Universidade de São Paulo.</p>
+      <p class="quote">Se a água estiver muito fria, o movimento das moléculas será bem menor e a chance de elas trombarem também é pequena. À medida que a água esquenta, aumentam as chances da colisão e consequentemente a reação passa a ocorrer com maior rapidez.</p>
+      <p class="quote">[...]</p>
+      <p class="quote-source">
+        Redação. &quot;Líquido gelado faz comprimido efervescente borbulhar devagar&quot;.
+        <i>Superinteressante</i>
+        , 31 jan. 1997. Abril Comunicações S.A. Disponível em: &lt;https://super.abril.com.br/comportamento/liquido-gelado-faz-comprimido-efervescente-borbulhar-devagar/&gt;. Acesso em: 2 set. 2021.
+      </p>
+    </p>
+    <boxe_01>
+      <texto_lista_bullets>•	No texto, vimos que a temperatura é um fator importante para a velocidade de uma reação. Quais outros fatores você imagina que possam alterar o tempo de duração das reações?</texto_lista_bullets>
+      <texto_lista_bullets>•	É possível evitar que uma reação aconteça pelo simples fato de diminuir sua temperatura?</texto_lista_bullets>
+      <texto_lista_bullets>•	Uma prática bastante comum para o cozimento de carnes é cortá-las em pedaços de mesmo tamanho. Esse procedimento acelera o processo e possibilita o cozimento uniforme. Por que essa ação afeta a velocidade da  reação?</texto_lista_bullets>
+    </boxe_01>
+    <p class="general-text">
+      <imagem_inline>01_titulo_1</imagem_inline>
+      Neste capítulo, serão abordadas as habilidades EM13CNT205 , EM13CNT301 e EM13CNT303
+    </p>
+  </pg48>
+  <pg49-53>
+    <boxe_02>
+      <imagem_inline>06_BOXE_02</imagem_inline>
+      <boxe_02_titulo1> Mais</boxe_02_titulo1>
+      <boxe_02_titulo2>Velocidade de reação, Experimentoteca.</boxe_02_titulo2>
+      <boxe_02_texto>Neste canal, você encontra diversos vídeos de experimentos, incluindo exemplos de fatores que influenciam na velocidade das reações. Disponível em:&lt;http://p.p4ed.com/OYUGB&gt;. Acesso em: 2 set. 2021</boxe_02_texto>
+      .
+    </boxe_02>
+    <p class="general-text">
+      <imagem_inline>01_titulo_1</imagem_inline>
+      <titulo1>Como alterar a velocidade das reações</titulo1>
+      <p class="general-text">No capítulo anterior, você estudou que algumas reações são rápidas, na ordem de segundos, enquanto outras são tão lentas que podem levar anos para acontecer. Além disso, você aprendeu como calcular a velocidade de reações e a energia de ativação.</p>
+      <p class="general-text">Agora imagine que um químico precise realizar uma síntese que levaria uma semana para ocorrer. Seria possível acelerar esse processo?</p>
+      <p class="general-text">Como você verá a seguir, é possível modificar a velocidade das reações alterando alguns fatores no processo, como a temperatura, a concentração dos reagentes, a pressão, a superfície de contato e o uso de catalisadores.</p>
+      <titulo2>Temperatura</titulo2>
+      <p class="general-text">Uma das maneiras mais utilizadas para conservar os alimentos é estocá-los na geladeira. Você sabe o motivo de fazermos isso? Acontece que, em temperaturas baixas, as reações químicas responsáveis pela decomposição dos alimentos têm sua velocidade diminuída. Alterar a temperatura do meio reacional afeta o grau de agitação das partículas reagentes e, consequentemente, modifica a velocidade da reação. </p>
+      <p class="general-text">Quando diminuímos a temperatura do sistema, as partículas reagentes se movimentam com menor energia e, com isso, as chances de ocorrer choques efetivos é reduzida. Como consequência, há uma redução da velocidade de reação.</p>
+      <p class="general-text">O mesmo raciocínio pode ser utilizado quando a temperatura do sistema é aumentada: eleva-se o grau de agitação das partículas reagentes, bem como a chance de choques efetivos ocorrerem. Isso resulta em um aumento da velocidade de reação.</p>
+    </p>
+    <imagem>F002-2020-EM-QUI-2S-L2-FA-U4-C12.png</imagem>
+    <p class="img-credit">YinYang/iStockphoto.com</p>
+    <p class="img-subtitle">Geladeira aberta com diversos alimentos.</p>
+    <boxe_17>
+      <imagem_inline>06_BOXE_17_CT</imagem_inline>
+      <boxe_17_titulo1>Fique ligado</boxe_17_titulo1>
+      <boxe_17_texto>ò Temperatura 5 ò Velocidade</boxe_17_texto>
+    </boxe_17>
+    <p class="general-text">
+      <titulo2>Concentração dos reagentes</titulo2>
+      <p class="general-text">No cotidiano de um laboratório, é comum utilizarmos reagentes em excesso para sintetizarmos produtos, porque a alteração da concentração dos reagentes em um meio reacional também interfere na velocidade de uma reação. O aumento da concentração dos reagentes provoca uma elevação da velocidade da reação, pois significa que há um número maior de partículas reagentes por unidade de volume de solução, o que resulta em um aumento da taxa de choques entre elas. Em outras palavras, há maior probabilidade de choques efetivos.</p>
+    </p>
+    <imagem>I001-2020-EM-QUI-2S-L2-FA-U4-C12.png</imagem>
+    <p class="img-subtitle">No recipiente da esquerda, há menor quantidade de partículas reagentes e, portanto, menores chances de choques efetivos entre elas. No recipiente da direita, há maior quantidade de partículas reagentes; dessa forma, há maiores chances de choques efetivos entre elas.</p>
+    <boxe_17>
+      <imagem_inline>06_BOXE_17_CT</imagem_inline>
+      <boxe_17_titulo1>Fique ligado</boxe_17_titulo1>
+      <boxe_17_texto>ò [Reagentes] 5 ò Velocidade</boxe_17_texto>
+    </boxe_17>
+    <p class="general-text">
+      <titulo2>Pressão</titulo2>
+      <p class="general-text">A pressão só afeta a velocidade das reações se pelo menos um dos reagentes se encontrar no estado gasoso, como é o caso da síntese de Haber-Bosch – ou síntese da amônia –, que se processa a 200 atm. Ao aumentarmos a pressão de um gás, causamos uma redução em seu volume; consequentemente, a substância se torna mais concentrada, o que acelera a reação.</p>
+    </p>
+    <imagem>I002-2020-EM-QUI-2S-L2-FA-U4-C12.png</imagem>
+    <p class="img-subtitle">Aumento de pressão, diminuição de volumes, maiores chances de  colisões entre os reagentes.</p>
+    <boxe_17>
+      <imagem_inline>06_BOXE_17_CT</imagem_inline>
+      <boxe_17_titulo1>Fique ligado</boxe_17_titulo1>
+      <boxe_17_texto>ò Pressão para reagentesgasosos 5 ò Velocidade</boxe_17_texto>
+    </boxe_17>
+    <p class="general-text">
+      <titulo2>Superfície de contato</titulo2>
+      Podemos observar no supermercado que um pedaço inteiro de queijo ou de presunto, sem cortes, apresenta um prazo de validade maior do que o mesmo produto vendido em fatias. Isso acontece por causa da superfície de contato. Denomina-se superfície de contato a área do reagente disponível para sofrer choques que resultarão na formação de produtos. Quanto maior for a superfície de contato da substância, maior será sua taxa de choques e, consequentemente, a probabilidade de choques efetivos, o que resulta em um aumento da velocidade da reação. A superfície de contato afeta apenas os reagentes sólidos.
+    </p>
+    <imagem>I003-2020-EM-QUI-2S-L2-FA-U4-C12_x.png</imagem>
+    <p class="img-subtitle">Observe a comparação da superfície de contato em uma peça inteira (à esquerda) e em uma peça fragmentada (à direita). As linhas vermelhas indicam a região disponível para as colisões. Note que a peça inteira tem menos pontos disponíveis para contato do que a peça fragmentada.</p>
+    <imagem>F003-2020-EM-QUI-2S-L2-FA-U4-C12.png</imagem>
+    <p class="img-credit">Nigel Stripe/iStockphoto.com</p>
+    <imagem>F004-2020-EM-QUI-2S-L2-FA-U4-C12.png</imagem>
+    <p class="img-credit">Fertnig/iStockphoto.com</p>
+    <p class="img-subtitle">Admitindo que os pregos de aço e a palha de aço apresentam a mesma massa e composição e que estão no mesmo ambiente, qual dos materiais enferrujaria primeiro?</p>
+    <boxe_17>
+      06_BOXE_17_CT
+      <boxe_17_titulo1>Fique ligado</boxe_17_titulo1>
+      ò Superfície de contatopara reagentessólidos 5 ò Velocidade
+    </boxe_17>
+    <boxe_17>
+      <imagem_inline>06_BOXE_17_CT</imagem_inline>
+      <boxe_17_titulo1>Fique ligado</boxe_17_titulo1>
+      <boxe_17_texto>Denomina-se catálise qualquer reação que tenha um catalisador.</boxe_17_texto>
+    </boxe_17>
+    <p class="general-text">
+      <titulo2>Catalisadores</titulo2>
+      <p class="general-text">
+        O catalisador aumenta a velocidade de uma reação, sendo consumido em uma das etapas da reação e regenerado em outra – portanto, não pode ser considerado reagente. O que define qual substância deve ser utilizada para catalisar a reação é a própria reação e seus componentes. Por exemplo, a reação entre o hidrogênio gasoso e o oxigênio gasoso, também chamada de
+        <b>catálise</b>
+        , pode ser catalisada pela platina:
+      </p>
+      M001A-2020-EM-QUI-2S-L2-FA-U4-C12.png
+      <p class="general-text">A platina, no entanto, não age como catalisador para todas as reações químicas. A decomposição do etanol, por exemplo, é catalisada pelo óxido de alumínio AL2O3:</p>
+      M001-2020-EM-QUI-2S-L2-FA-U4-C12.png
+      <p class="general-text">O catalisador fornece um caminho de reação alternativo e com energia de ativação menor. Isso resulta em aumento da velocidade de reação, pois, como vimos no capítulo anterior, quanto menor for a energia de ativação, maior será a velocidade reacional.</p>
+      I004-2020-EM-QUI-2S-L2-FA-U4-C12.png
+      <imagem></imagem>
+      <p class="general-text">Observe no gráfico que o catalisador não altera a energia dos reagentes nem a dos produtos, somente diminui a energia de ativação.</p>
+      <p class="general-text">De maneira simplificada, o catalisador se liga aos reagentes para formar um novo complexo ativado com menor energia; depois, essas ligações se rompem e regeneram o catalisador.</p>
+    </p>
+    <boxe_08>
+      <imagem_inline>06_BOXE_08_CT</imagem_inline>
+      <boxe_08_titulo1>Em Biologia vemos que...</boxe_08_titulo1>
+      <boxe_08_texto>... enzimas são compostos orgânicos presentes no nosso organismo que apresentam ação catalisadora de reações químicas importantes para o bom funcionamento do corpo humano. Sem elas, muitos processos biológicos imprescindíveis não ocorreriam.</boxe_08_texto>
+    </boxe_08>
+    <secao_01>
+      <imagem_inline>06_boxe_04</imagem_inline>
+      <secao_01_titulo1>Questões resolvidas</secao_01_titulo1>
+      <exercicio_enunciado>
+        <b>1</b>
+        <b>UEPG-PR</b>
+        Nos tubos de ensaio A, B, C e D foram adicionados 2 g de zinco e 10 mL de ácido clorídrico 1 mol/L. A diferença entre os tubos é a granulometria do zinco e a temperatura. Observou-se o desprendimento de gás nos 4 tubos. A partir do esquema ao lado, que representa o início do processo, assinale o que for correto.
+      </exercicio_enunciado>
+      EX_RES-01.png
+      <imagem></imagem>
+      <exercicio_lista_questao>
+        <b>01.</b>
+        A velocidade da reação é maior no tubo B do que no tubo A.
+      </exercicio_lista_questao>
+      <exercicio_lista_questao>
+        <b>02.</b>
+        O tubo que apresenta a maior velocidade de reação é o D.
+      </exercicio_lista_questao>
+      <exercicio_lista_questao>
+        <b>04.</b>
+        A reação que ocorre é Zn(s) 1 2 HC&#8467;(aq) &#10141; ZnCL2(aq) 1 H2(g).
+      </exercicio_lista_questao>
+      <exercicio_lista_questao>
+        <b>08.</b>
+        O tubo C apresenta uma velocidade de reação maior que no tubo B, porque a superfície de contato do zinco é maior no tubo C.
+      </exercicio_lista_questao>
+      <exercicio_lista_questao>
+        <b>16.</b>
+        A velocidade de reação do Zn nos tubos obedece à seguinte ordem: A &lt; B &lt; C &lt; D.
+      </exercicio_lista_questao>
+      <b>Soma:</b>
+      <imagem>FAKE_INPUT</imagem>
+      <titulo_resolucao>Resolução:</titulo_resolucao>
+      <texto_resolucao>Soma: 01 1 02 1 04 1 08 1 16 5 31</texto_resolucao>
+      <texto_resolucao>Afirmativa 01: correta. A velocidade da reação é maior no tubo B do que no tubo A, pois a temperatura em B é maior do que em A.</texto_resolucao>
+      <texto_resolucao>Afirmativa 02: correta. O tubo que apresenta a maior velocidade de reação é o D, pois apresenta a maior superfície de contato e a maior temperatura.</texto_resolucao>
+      <texto_resolucao>Afirmativa 04: correta. A reação que ocorre é Zn(s) 1 2 HC&#8467;(aq) &#10141; ZnCL2(aq) 1 H2(g).</texto_resolucao>
+      <texto_resolucao>Afirmativa 08: correta. O tubo C apresenta uma velocidade de reação maior do que a do tubo B, porque a superfície de contato em C é maior.</texto_resolucao>
+      <texto_resolucao>Afirmativa 16: correta. A velocidade de reação do Zn obedece à seguinte ordem: A &lt; B &lt; C &lt; D</texto_resolucao>
+      <exercicio_enunciado>
+        <b>2</b>
+        <b>Unesp</b>
+        O esquema apresentado descreve os diagramas energéticos para uma mesma reação química, realizada na ausência e na presença de um agente catalisador.
+      </exercicio_enunciado>
+      <imagem>EX_RES-02.png</imagem>
+      <texto_geral_exercicio>Com base no esquema, responda qual a curva que representa a reação na presença do catalisador.</texto_geral_exercicio>
+      <texto_geral_exercicio>Explique sua resposta e faça uma previsão sobre a variação de entalpia dessa reação na ausência e na presença do catalisador.</texto_geral_exercicio>
+      <titulo_resolucao>Resolução:</titulo_resolucao>
+      <texto_resolucao>O catalisador diminui a energia de ativação do sistema, pois altera o caminho da reação. Logo, a curva II representa a reação na presença do catalisador. O valor da variação de entalpia permanece constante.I007-2020-EM-QUI-2S-L2-FA-U4-C12.png</texto_resolucao>
+    </secao_01>
+    <boxe_04>
+      <imagem_inline>06_boxe_04</imagem_inline>
+      <boxe_04_titulo1>Experimento</boxe_04_titulo1>
+      <boxe_04_titulo2>Influência da temperatura e da superfície de contato na velocidadeda reação</boxe_04_titulo2>
+      <boxe_04_texto>Este experimento simples deve ser realizado em duas etapas. Na primeira, vamos verificar a influência da temperatura na reação de dissolução de um comprimido efervescente em água; na segunda, vamos verificar a influência da superfície de contato na velocidade da mesma reação. Importante: siga sempre as orientações do seu professor e utilize os Equipamentos de Proteção Individual (avental, óculos de segurança etc.) durante toda a execução. Os materiais utilizados podem ser descartados na pia e no lixo comum.</boxe_04_texto>
+      <titulo3>Objetivo</titulo3>
+      <boxe_04_texto>Verificar como a velocidade de uma reação é alterada pela temperatura e pela superfície de contato.</boxe_04_texto>
+      <titulo3>Materiais</titulo3>
+      <texto_lista_bullets>•	4 comprimidos efervescentes (de vitamina C ou de antiácido);</texto_lista_bullets>
+      <texto_lista_bullets>•	4 copos medidores;</texto_lista_bullets>
+      <texto_lista_bullets>•	chapa aquecedora;</texto_lista_bullets>
+      <texto_lista_bullets>•	espátula;</texto_lista_bullets>
+      <texto_lista_bullets>•	vidro de relógio;</texto_lista_bullets>
+      <texto_lista_bullets>•	termômetro.</texto_lista_bullets>
+      <titulo3>Procedimentos</titulo3>
+      <titulo3>Primeira etapa</titulo3>
+      <texto_lista_bullets>•	Adicione o mesmo volume de água em temperatura ambiente em dois copos medidores.</texto_lista_bullets>
+      <texto_lista_bullets>•	Separe um dos copos e leve o outro à chapa aquecedora para aquecer a água até 60 °C.</texto_lista_bullets>
+      <texto_lista_bullets>•	Após o aquecimento, adicione simultaneamente um comprimido efervescente em cada copo com água.</texto_lista_bullets>
+      <texto_lista_bullets>•	Observe o tempo que leva para que os comprimidos sejam totalmente dissolvidos.</texto_lista_bullets>
+      <titulo3>Segunda etapa</titulo3>
+      <texto_lista_bullets>•	Nos dois copos restantes, adicione o mesmo volume de água em temperatura ambiente utilizado na etapa anterior.</texto_lista_bullets>
+      <texto_lista_bullets>•	Use o vidro de relógio e a espátula para macerar um dos comprimidos efervescentes restantes, mantendo o outro inteiro.</texto_lista_bullets>
+      <texto_lista_bullets>•	Adicione simultaneamente um comprimido efervescente em cada copo com água.</texto_lista_bullets>
+      <texto_lista_bullets>•	Observe o tempo que leva para que os comprimidos sejam totalmente dissolvidos.</texto_lista_bullets>
+      <exercicio_enunciado>
+        <b>1</b>
+        Qual dos comprimidos foi consumido mais rápido na primeira etapa do experimento: o do copo quente ou do copo em temperatura ambiente? Justifique.
+      </exercicio_enunciado>
+      <exercicio_enunciado>
+        <b>2</b>
+        Na segunda etapa, qual dos comprimidos reagiu de maneira mais rápida: o macerado ou o inteiro? Justifique.
+      </exercicio_enunciado>
+    </boxe_04>
+  </pg49-53>
+  <pg54-56>
+    <secao_02>
+      <imagem_inline>01_titulo_1</imagem_inline>
+      <secao_02_titulo1>Aplicando conhecimentos</secao_02_titulo1>
+      <exercicio_enunciado>
+        <b>1</b>
+        A síntese Haber-Bosch produz a amônia (NH3), substância amplamente utilizada em fertilizantes. A reação pode ser representada da seguinte maneira:
+      </exercicio_enunciado>
+      <texto_geral_exercicio>N2(g) 1 3 H2(g) Ô 2 NH3(g)</texto_geral_exercicio>
+      <secao_02_texto></secao_02_texto>
+      <texto_geral_exercicio>Ela deve ocorrer sob pressão de 200 atm, temperatura de 450 °C e na presença do ferro, que atua como catalisador. Analisando as informações fornecidas, a síntese de Haber-Bosch é lenta ou rápida nas condições normais de temperatura e pressão? Justifique.</texto_geral_exercicio>
+      <exercicio_enunciado>
+        <b>2</b>
+        Um cientista gotejou ácido sulfúrico em um cristal maciço de cloreto de sódio e anotou o tempo que a reação levou para ocorrer. Depois, ele gotejou o ácido sulfúrico de mesma concentração no cloreto de sódio em forma de pó e anotou novamente o tempo de reação. Qual tempo anotado foi maior?
+      </exercicio_enunciado>
+      <exercicio_enunciado>
+        <b>3</b>
+        Assinale o que for
+        <b>incorreto</b>
+        sobre catalisadores.
+      </exercicio_enunciado>
+      <exercicio_lista_letra>
+        <b>a)</b>
+        Diminuem a energia de ativação da reação.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>b)</b>
+        Não alteram o produto formado.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>c)</b>
+        Aumentam o valor do DH da reação.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>d)</b>
+        Não são consumidos durante a reação.
+      </exercicio_lista_letra>
+      <exercicio_enunciado>
+        <b>4</b>
+        Uma reação química bastante comum em qualquer laboratório é a neutralização de um resíduo ácido por uma substância de caráter básico antes de seu descarte, de modo a não agredir o ambiente. O carbonato de cálcio é utilizado com frequência para esse fim. Acompanhe o exemplo:
+      </exercicio_enunciado>
+      <texto_geral_exercicio>2 HC&#8467;(aq) 1 CaCO3(s) &#10141; CaC&#8467;2(s) 1 H2O(&#8467;) 1 CO2(g)</texto_geral_exercicio>
+    </secao_02>
+    <secao_02>
+      <texto_geral_exercicio>Caso a pressão do meio reacional fosse aumentada de 1 atm para 5 atm, o que aconteceria com a velocidade dessa reação? Justifique.</texto_geral_exercicio>
+      <exercicio_enunciado>
+        <b>5</b>
+        Com base no que você estudou em Cinética Química, justifique por que armazenamos alimentos perecíveis na geladeira.
+      </exercicio_enunciado>
+      <exercicio_enunciado>
+        <b>6</b>
+        <b>Fuvest-SP 2020</b>
+        Numa determinada condição experimental e com o catalisador adequado, ocorre uma reação, conforme representada no gráfico, que relaciona porcentagem do composto pelo tempo de reação.
+      </exercicio_enunciado>
+      <imagem>lumen_2022_3s_l5_qui_fa_u2_cap5_q002.png</imagem>
+      <texto_geral_exercicio>Uma representação adequada para esse processo é</texto_geral_exercicio>
+      :
+      <exercicio_lista_letra>
+        <b>a)</b>
+        Limoneno Ô
+        <i>p</i>
+        -cimeno &#10141; a-terpineno
+      </exercicio_lista_letra>
+      Esquema_001_QuímicaV5_FA_C5.png
+      <exercicio_lista_letra>
+        <b>b)</b>
+        Limoneno  a-terpineno
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>c)</b>
+        Limoneno 1
+        <i>p</i>
+        -cimeno Ô a-terpineno
+      </exercicio_lista_letra>
+      Esquema_002_QuímicaV5_FA_C5.png
+      <exercicio_lista_letra>
+        <b>d)</b>
+        Limoneno
+        <i>p</i>
+        -cimeno
+      </exercicio_lista_letra>
+      <exercicio_enunciado>
+        <b>e)</b>
+        Limoneno &#10141; a-terpineno &#10141;
+        <i>p</i>
+        -cimeno
+      </exercicio_enunciado>
+    </secao_02>
+    <secao_03>
+      <secao_03_titulo1>Consolidando saberes</secao_03_titulo1>
+      <exercicio_lista_letra>
+        <b>1</b>
+        <b>Fuvest-SP 2019</b>
+        Um antiácido comercial em pastilhas possui, em sua composição, entre outras substâncias, bicarbonato de sódio, carbonato de sódio e ácido cítrico. Ao ser colocada em água, a pastilha dissolve-se completamente e libera gás carbônico, o que causa a efervescência. Para entender a influência de alguns fatores sobre a velocidade de dissolução da pastilha, adicionou-se uma pastilha a cada um dos quatro recipientes descritos na tabela, medindo-se o tempo até a sua dissolução completa.
+      </exercicio_lista_letra>
+      <tabela_texto_geral xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" aid:table="table" aid:trows="5" aid:tcols="2">
+        <tabela_titulo1 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="119.0551181102362">
+          <b>Solução</b>
+        </tabela_titulo1>
+        <tabela_titulo1 aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="96.37795275590551">
+          <b>Tempo medido até a completa dissolução da pastilha (em segundos)</b>
+        </tabela_titulo1>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="119.0551181102362">
+          <texto_lista_numero>1. Água mineral sem gás à temperatura ambiente (25 °C)</texto_lista_numero>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="96.37795275590551">
+          <tabela_texto_geral>
+            <texto_lista_numero>36</texto_lista_numero>
+          </tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="119.0551181102362">
+          <texto_lista_numero>2. Água mineral com gás à temperatura ambiente (25 °C)</texto_lista_numero>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="96.37795275590551">
+          <tabela_texto_geral>
+            <texto_lista_numero>35</texto_lista_numero>
+          </tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="119.0551181102362">
+          <texto_lista_numero>3. Água mineral sem gás deixada em geladeira (4 °C</texto_lista_numero>
+          )
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="96.37795275590551">
+          <tabela_texto_geral>53</tabela_texto_geral>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="119.0551181102362">
+          <texto_lista_numero>4. Água mineral com gás deixada em geladeira (4 °C)</texto_lista_numero>
+        </tabela_texto_geral>
+        <tabela_texto_geral aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="96.37795275590551">
+          <tabela_texto_geral>55</tabela_texto_geral>
+        </tabela_texto_geral>
+      </tabela_texto_geral>
+      <exercicio_enunciado>Para todos os experimentos, foi usada água mineral da mesma marca. Considere a água com gás como tendo gás carbônico dissolvido.</exercicio_enunciado>
+      <texto_geral_exercicio>Com base nessas informações, é correto afirmar que</texto_geral_exercicio>
+      <exercicio_lista_letra>
+        <b>a)</b>
+        o uso da água com gás, ao invés da sem gás, diminui a velocidade de dissolução da pastilha em cerca de 50%, uma vez que, como já possui gás carbônico, há o deslocamento do equilíbrio para a formação dos reagentes.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>b)</b>
+        o uso da água com gás, ao invés da sem gás,aumentou a velocidade de dissolução da pastilha em cerca de 33%, uma vez que o gás carbônico acidifica a água, aumentando a velocidade de consumo do carbonato de sódio.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>c)</b>
+        nem a mudança de temperatura nem a adição de gás carbônico na solução afetaram a velocidade da reação, uma vez que o sistema não se encontra em equilíbrio.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>d)</b>
+        o aumento da temperatura da água, de 4 °C para 25 °C, levou a um aumento na velocidade da reação, uma vez que aumentou a frequência e a energia de colisão entre as moléculas envolvidas na reação.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>e)</b>
+        o aumento da temperatura da água, de 4 °C para 25 °C, levou a um aumento na velocidade da reação, uma vez que facilita a liberação de gás carbônico da solução, deslocando o equilíbrio para a formação dos reagentes.
+      </exercicio_lista_letra>
+    </secao_03>
+    <secao_03>
+      <exercicio_enunciado>
+        <b>2</b>
+        <b>Unioeste-PR 2018</b>
+        Atualmente, a indústria química se utiliza de uma vasta gama de catalisadores, que possuem a vantagem de tornarem as reações mais rápidas com menores custos. O gráfico a seguir representa a variação de energia de uma reação qualquer na presença e na ausência de catalisador.
+      </exercicio_enunciado>
+      CS_Q02.png
+      <imagem></imagem>
+      <texto_geral_exercicio>Pela análise do gráfico, pode-se afirmar que</texto_geral_exercicio>
+      <exercicio_lista_letra>
+        <b>a)</b>
+        a reação A é exotérmica e a B é endotérmica.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>b)</b>
+        a curva B representa a reação sem catalisador.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>c)</b>
+        o valor de y representa a energia de ativação da reação não catalisada.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>d)</b>
+        o valor de (x 2 y) representa a energia de ativação da reação catalisada.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>e)</b>
+        o valor de z representa a energia inicial dos ­reagentes.
+      </exercicio_lista_letra>
+      <exercicio_enunciado>
+        <b>3</b>
+        <b>Uerj 2018</b>
+        Observe no gráfico os valores de entalpia ao longo do caminho de uma reação de hi­dro­genação no pent-2-eno, em duas condições: presença e ausência de catalisador.
+      </exercicio_enunciado>
+      ID015-Q003-2020-EM-QUI-2S-L1-FA-U3-C9.png
+      <texto_geral_exercicio>Indique a curva que representa a reação química na presença de catalisador e calcule, em kJ/mol, sua energia de ativação. Determine, ainda, a variação de entalpia dessa reação, em kJ/mol, e nomeie o produto formado.</texto_geral_exercicio>
+      <exercicio_enunciado>
+        <b>4</b>
+        <b>UEPG-PR 2016</b>
+        Considere a seguinte reação genérica: A 1 B &#10141; C 1 D. A seguir, é representado o gráfico de variação da entalpia da reação genérica acima, na ausência e presença do catalisador.
+      </exercicio_enunciado>
+    </secao_03>
+    <secao_03>
+      <imagem>CS_Q03.png</imagem>
+      <texto_geral_exercicio>Sobre o gráfico, assinale o que for correto.</texto_geral_exercicio>
+      <exercicio_lista_questao>
+        <b>01.</b>
+        A energia de ativação na ausência do catalisador é 40 kcal.
+      </exercicio_lista_questao>
+      <exercicio_lista_questao>
+        <b>02.</b>
+        A energia de ativação na presença do catalisador é 30 kcal.
+      </exercicio_lista_questao>
+      <exercicio_lista_questao>
+        <b>04.</b>
+        A variação entre a energia de ativação na ausência e presença do catalisador é de 10 kcal.
+      </exercicio_lista_questao>
+      <exercicio_lista_questao>
+        <b>08.</b>
+        A reação é exotérmica.
+      </exercicio_lista_questao>
+      <exercicio_lista_questao>
+        <b>16.</b>
+        A variação de entalpia da reação é de –25 kcal.
+      </exercicio_lista_questao>
+      <b>Soma:</b>
+      <imagem>FAKE_INPUT</imagem>
+      <exercicio_enunciado>
+        <b>5</b>
+        <b>Acafe-SC 2021</b>
+        Diversos processos químicos utilizam, atualmente, catalisadores com o objetivo de tornar o processo mais vantajoso economicamente. Os catalisadores atuam em um processo químico sem serem consumidos.
+      </exercicio_enunciado>
+      <texto_geral_exercicio>Em relação aos catalisadores, são feitas as seguintes afirmações:</texto_geral_exercicio>
+      <exercicio_lista_romano>
+        <b>I.</b>
+        O catalisador aumenta ou diminui a velocidade de uma reação química, modificando o seu equilíbrio químico.
+      </exercicio_lista_romano>
+      <exercicio_lista_romano>
+        <b>II.</b>
+        A energia de ativação de uma reação química aumenta com a presença de um inibidor, diminuindo a velocidade da reação.
+      </exercicio_lista_romano>
+      <exercicio_lista_romano>
+        <b>III.</b>
+        A catálise homogênea ocorre quando o catalisador está na mesma fase dos reagentes em um processo químico.
+      </exercicio_lista_romano>
+      <exercicio_lista_romano>
+        <b>IV.</b>
+        Em reações reversíveis, a velocidade da reação direta será aumentada pela presença do catalisador, enquanto que a velocidade da reação inversa não sofrerá alteração.
+      </exercicio_lista_romano>
+      <exercicio_lista_romano>
+        <b>V.</b>
+        A adição de um catalisador a uma reação química não altera a variação de entalpia do sistema.Todas as afirmações
+        <b>corretas</b>
+        estão em:
+      </exercicio_lista_romano>
+      <exercicio_lista_letra>
+        <b>a)</b>
+        II – III – V
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>b)</b>
+        I – III – V
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>c)</b>
+        I – II – IV
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>d)</b>
+        III – IV – V
+      </exercicio_lista_letra>
+    </secao_03>
+    <secao_03>
+      <exercicio_enunciado>
+        <b>6</b>
+        <b>Unicamp-SP 2020</b>
+        Um dos pilares da nanotecnologia é o fato de as propriedades dos materiais dependerem do seu tamanho e da sua morfologia. Exemplo: a maior parte do H2 produzido industrialmente advém da reação de reforma de hidrocarbonetos: CH4(g) 1 H2O(g) &#10141; 3 H2(g) 1 CO(g). Uma forma de promover a descontaminação do hidrogênio é reagir o CO com largo excesso de água:
+      </exercicio_enunciado>
+      <texto_geral_exercicio>CO(g) 1 H2O(g) &#10141; CO2(g) + H2(g);</texto_geral_exercicio>
+      <texto_geral_exercicio>DH 5 241,6 kJ ? mol21</texto_geral_exercicio>
+      <texto_geral_exercicio>A figura abaixo mostra resultados da velocidade (em unidade arbitrária, ua) dessa conversão em função da temperatura, empregando-se um nanocatalisador com duas diferentes morfologias.</texto_geral_exercicio>
+      lumen_2022_3s_l5_qui_fa_u2_cap5_q003.png
+      <texto_geral_exercicio>Considerando essas informações, é correto afirmar que, com essa tecnologia, a descontaminação do hidrogênio por CO é mais eficiente na presença do catalisador em forma de</texto_geral_exercicio>
+      <exercicio_lista_letra>
+        <b>a)</b>
+        nanobastão, pois a transformação do CO ocorreria em temperaturas mais baixas, o que também favoreceria o equilíbrio da reação no sentido dos produtos, uma vez que a reação é exotérmica.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>b)</b>
+        nanobastão, pois a transformação do CO ocorreria em temperaturas mais baixas, o que também favoreceria o equilíbrio da reação no sentido dos produtos, uma vez que a reação é endotérmica.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>c)</b>
+        nanocubo, pois a transformação do CO ocorreria em temperaturas mais elevadas, o que também favoreceria o equilíbrio da reação no sentido dos produtos, uma vez que a reação é exotérmica.
+      </exercicio_lista_letra>
+      <exercicio_lista_letra>
+        <b>d)</b>
+        nanocubo, pois a transformação do CO ocorreria em temperaturas mais elevadas, o que também favoreceria o equilíbrio da reação no sentido dos produtos, uma vez que a reação é endotérmica.
+      </exercicio_lista_letra>
+    </secao_03>
+  </pg54-56>
+</Root>

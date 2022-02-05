@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root>
+  <pg40-41>
+    <imagem>
+      <imagem>F001-2020-EM-QUI-2S-L1-FA-U4-C11.png</imagem>
+      <p class="img-credit">luoman/iStockphoto.com</p>
+      <imagem>F003-2020-EM-QUI-2S-L1-FA-U4-C11.png</imagem>
+      <p class="img-credit">zorazhuang/iStockphoto.com</p>
+      <imagem>F002-2020-EM-QUI-2S-L1-FA-U4-C11.png</imagem>
+      <p class="img-credit">JacquesPALUT/iStockphoto.com</p>
+      <imagem>F004-2020-EM-QUI-2S-L1-FA-U4-C11.png</imagem>
+      <p class="img-credit">khoamartin/Shutterstock.com</p>
+    </imagem>
+    <p class="img-subtitle">
+      Algumas reações químicas são lentas, como a degradação do lixo e a oxidação de monumentos; outras são rápidas, como as que ocorrem quando um
+      <i>air bag</i>
+      é acionado. Existem, ainda, reações de velocidade moderada, como é o caso do apodrecimento de frutas.
+    </p>
+    <TITULO_UNID>UNIDADE 2</TITULO_UNID>
+    <TITULO_UNID_TEXTO>Cinética Química</TITULO_UNID_TEXTO>
+    <p class="general-text">Nesta unidade, falaremos sobre a Cinética Química: ramo da Química que estuda a velocidade das transformações químicas, desde reações rápidas – como explosões – até as extremamente lentas, como a decomposição de plásticos na natureza. No capítulo 4, aprenderemos a calcular a velocidade das reações. Já no capítulo 5, estudaremos os fatores que influenciam a velocidade das transformações químicas. No capítulo 6, por fim, abordaremos a lei de ação das massas, outra abordagem para o cálculo da velocidade das reações químicas.</p>
+    <texto_lista_bullets>
+      <texto_lista_bullets>Qual é a importância de se controlar a velocidade de uma reação química?</texto_lista_bullets>
+      <texto_lista_bullets>Reações químicas que se processam rapidamente são sempre preferíveis às reações químicas mais lentas?</texto_lista_bullets>
+      <texto_lista_bullets>É possível alterar a velocidade de uma transformação química?</texto_lista_bullets>
+    </texto_lista_bullets>
+  </pg40-41>
+  <pg42-44>
+    <TITULO_CAP>CAPÍTULO 4</TITULO_CAP>
+    <TITULO_CAP_TEXTO>Velocidade das reações</TITULO_CAP_TEXTO>
+    <imagem>
+      F005-2020-EM-QUI-2S-L1-FA-U4-C11.png
+      <p class="img-credit">zoranm/iStockphoto.com</p>
+    </imagem>
+    <p class="img-subtitle">Ao comprar um produto, sempre observe o seu prazo de validade.</p>
+    <p class="quote">
+      <p class="quote-title">Como é determinado o prazo de validade de um produto?</p>
+      <p class="quote">Para saber até quando um produto mantém boas condições de consumo, é feita uma análise em laboratório, com pequenas amostras, para avaliar sob que condições e em que velocidade ele se deteriora. Com base nessa avaliação, chamada de teste de vida de prateleira, é que se determina o prazo de validade de alimentos – remédios e pneus de carro passam por outros testes. A data de validade é um guia não só para quem consome. Saber até quando o produto está em condições de ser vendido é bom para fabricantes – que evitam ter a imagem manchada por danos causados aos consumidores finais dos seus produtos – e para os distribuidores – que conseguem planejar o ritmo de entrega para as lojas.</p>
+      <p class="quote">[...]</p>
+      <p class="quote">Amostras dos produtos vão para câmaras que aceleram sua degradação. Em alguns testes o produto é submetido a 10 oC acima da temperatura média do lugar mais quente em que ele é comercializado. Outro teste é fazer a temperatura oscilar entre quente e frio várias vezes.</p>
+      <p class="quote">[...]</p>
+      <p class="quote-source">
+        GOMES, Diogo. “Como é determinado o prazo de validade de um produto?”.
+        <i>Mundo Estranho</i>
+        , 1o jan. 2010. Abril Comunicações S.A. Disponível em: &lt;https://super.abril.com.br/mundo-estranho/como-e-determinado-o-prazo-de-validade-de-um-produto/&gt;. Acesso em: 2 set. 2021.
+      </fonte>
+    </p>
+    <boxe_01>
+      <texto_lista_bullets>•	Qual é a relação da Cinética Química com o prazo de validade dos alimentos?</texto_lista_bullets>
+      <texto_lista_bullets>•	Quanto tempo leva a decomposição de uma folha de papel pela natureza? E uma garrafa de vidro?</texto_lista_bullets>
+      <texto_lista_bullets>•	É possível acelerar o processo de degradação do lixo que geramos?</texto_lista_bullets>
+    </boxe_01>
+    <p class="general-text">
+      Imagem_link  Neste capítulo, serão abordadas as habilidades
+      <b>EM13CNT101</b>
+      ,
+      <b>EM13CNT201</b>
+      ,
+      <b>EM13CNT205</b>
+      e
+      <b>EM13CNT301</b>
+    </p>
+    <p class="general-text">
+      <titulo1>
+        <imagem>01_Titulo1</imagem>
+        Velocidade de consumo, de formação e velocidade média
+      </titulo1>
+      <p class="general-text">A velocidade é associada ao quão rápido ou ao quão lento é um evento e, para as reações químicas, não é diferente. A velocidade das reações é calculada com base na quantidade de reagente consumido ou de produto formado em um determinado período de tempo. Essa quantidade pode ser expressa em concentração, em quantidade de matéria (mol) ou até mesmo em massa:</p>
+      <imagem>QUI_2_L4_FA_U4_C11_001.png</imagem>
+      <p class="general-text">Por exemplo, no início de uma reação (t 5 0) tem-se 1 mol/L de reagente no meio reacional. Ao final de 5 minutos de reação, constatou-se a presença de 0,2 mol/L desse mesmo reagente. A velocidade de consumo do reagente pode ser expressa por:</p>
+      <imagem>QUI_2_L4_FA_U4_C11_002.png</imagem>
+      <p class="general-text">Mas e se for preciso calcular a velocidade de diferentes reagentes na mesma reação? Considere o exemplo seguinte:</p>
+      <p class="general-text">Na reação de síntese do óxido de magnésio representada por: 2 Mg 1 O2 &#10141; 2 MgO, a proporção estequiométrica é de 2 Mg para 1 O2. Se inicialmente existiam 1,5 mol/L de O2 na reação e após 10 segundos foram medidos 1 mol/L de O2, é possível calcular a velocidade de consumo do O2 e, por proporção, a do magnésio. Observe:</p>
+      <imagem>QUI_2_L4_FA_U4_C11_004.png</imagem>
+      <p class="general-text">A cada segundo são consumidos 0,05 mol/L de O2 e 0,1 mol/L de Mg.</p>
+      <p class="general-text">Da mesma maneira, pode-se calcular a velocidade de formação dos produtos. Observe o exemplo a seguir.</p>
+      <p class="general-text">Se após 5 minutos de uma reação hipotética foi formado 1,2 mols de produto, qual é a velocidade de formação em mol/s? Lembre-se de que 5 minutos são equivalentes a 300 segundos.</p>
+      <imagem>QUI_2_L4_FA_U4_C11_005.png</imagem>
+      <p class="general-text">Também podemos calcular a velocidade média da reação, dividindo a velocidade de cada componente pelo seu coeficiente estequiométrico. Veja o exemplo:</p>
+      <p class="general-text">Na reação de síntese da amônia, representada abaixo, foi observado que a velocidade de consumo de N2 era 0,5 mol/L ? min; a de H2, 1,5 mol/L ? min; e a velocidade de formação do NH3 era 1 mol/L ? min.</p>
+      <imagem>EQUACAO_005</imagem>
+    </p>
+    <boxe_17>
+      <boxe_17_titulo1>
+        Fique ligado
+        <imagem>06_BOXE_17</imagem>
+      </boxe_17_titulo1>
+      <boxe_17_texto>
+        Observe que no cálculo de Dq realizado obtivemos um valor negativo.
+        <b>Valores negativos</b>
+        de velocidade de reação indicam que houve consumo de substância, ou seja, trata-se de um
+        <b>reagente</b>
+        . Para evitar isso, pode-se adicionar um sinal de negativo na fórmula da velocidade de consumo de reagentes:
+        <imagem>QUI_2_L4_FA_U4_C11_003.png</imagem>
+        , ou fornecer os valores da velocidade em módulo, para sempre serem positivos.
+      </boxe_17_texto>
+    </boxe_17>
+    <boxe_17>
+      <boxe_17_titulo1>
+        Fique ligado
+        <imagem>06_BOXE_17</imagem>
+      </boxe_17_titulo1>
+      <boxe_17_texto>
+        Ao determinar a velocidade de um componente da reação, é possível determinar as velocidades de todos os outros utilizando a
+        <b>proporção estequiométrica</b>
+        .
+      </boxe_17_texto>
+    </boxe_17>
+    <boxe_02>
+      <boxe_02_titulo1>06_BOXE_02 Mais</boxe_02_titulo1>
+      <boxe_02_titulo2>
+        <i>Como fazer PASTA DE DENTE DE ELEFANTE | EXPERIÊNCIA com água oxigenada</i>
+        , Manual do Mundo.
+      </boxe_02_titulo2>
+      <boxe_02_texto>O canal Manual do Mundo demonstra um exemplo de reação muito rápida conhecida como “pasta de dente de elefante”.   Disponível em: &lt;https://www.youtube.com/watch?v=PygjKCTcwqY&amp;t=5s&gt;. Acesso em: 17 nov. 2021.</boxe_02_texto>
+    </boxe_02>
+    <p class="general-text">
+      <p class="general-text">A velocidade total da reação pode ser dada:</p>
+      <imagem>QUI_2_L4_FA_U4_C11_006.png</imagem>
+      <imagem>QUI_2_L4_FA_U4_C11_007.png</imagem>
+      <p class="general-text">vreação 5 0,5 mol/L · min</p>
+    </p>
+  </pg42-44>
+  <pg44>
+    <p class="general-text">
+      <titulo1>
+        <imagem>01_Titulo1</imagem>
+        Teoria das colisões
+      </titulo1>
+      <p class="general-text">A forma como as moléculas dos reagentes interagem determina a velocidade das reações químicas. Para que a reação aconteça, é necessário que haja colisões entre as espécies químicas (moléculas, aglomerados iônicos etc.) reagentes, porém não é qualquer choque entre elas que irá gerar produto.</p>
+      <p class="general-text">
+        De acordo com a teoria das colisões, para que o choque entre as moléculas seja efetivo, é preciso que ocorra com uma certa quantidade de energia, chamada de
+        <b>energia de ativação</b>
+        , e que a interação entre as moléculas aconteça em uma
+        <b>orientação geométrica adequada</b>
+        .
+      </p>
+      <imagem>I001-2020-EM-QUI-2S-L1-FA-U4-C11.png</imagem>
+      <p class="general-text">Graficamente, a reação química pode ser representada como:</p>
+      <imagem>I002-2020-EM-QUI-2S-L1-FA-U4-C11.png</imagem>
+      <p class="general-text">A energia de ativação, Ea, pode ser interpretada como uma barreira energética a ser superada pelos reagentes para que se transformem em produtos. Quanto maior for essa barreira, maior será o tempo que a reação levará para ocorrer. Se a colisão entre as partículas de reagentes não tiver energia suficiente para atingir a energia de ativação, a reação não ocorrerá. O complexo ativado corresponde a um arranjo específico das moléculas, o qual se transformará nos produtos ou restabelecerá os reagentes, ou seja, não pode ser classificado como reagente nem como produto.</p>
+    </p>
+    <boxe_17>
+      <boxe_17_titulo1>
+        Fique ligado
+        <imagem>06_BOXE_17</imagem>
+      </boxe_17_titulo1>
+      <boxe_17_texto>
+        Denomina-se
+        <b>choque efetivo</b>
+        a colisão entre as espécies químicas dos reagentes com a energia mínima e a orientação geométrica favorável.
+      </boxe_17_texto>
+    </boxe_17>
+    <boxe_17>
+      <boxe_17_titulo1>
+        Fique ligado
+        <imagem>06_BOXE_17</imagem>
+      </boxe_17_titulo1>
+      <boxe_17_texto>
+        <b>ò Ea 5 ò tempo da reação</b>
+      </boxe_17_texto>
+    </boxe_17>
+  </pg44>
+  <pg44-45>
+    <secao_01>
+      <secao_01_texto>
+        <secao_01_titulo1>
+          <imagem>06_BOXE_04</imagem>
+          Questão resolvida
+        </secao_01_titulo1>
+        <exercicio_enunciado>
+          1
+          <b>Unimontes-MG</b>
+          Uma das etapas na produção de ácido nítrico envolve a reação de combustão da amônia, NH3, em temperatura 1  123 K. Dependendo das condições, a combustão da amônia gasosa pode originar, além de água, os gases monóxido de nitrogênio, NO, ou nitrogênio, N2, como produto principal, conforme representado abaixo.
+        </exercicio_enunciado>
+        <imagem>Q002-2020-EM-QUI-2S-L1-FA-U4-C11.png</imagem>
+      </secao_01_texto>
+      <secao_01_texto>
+        <texto_geral_exercicio>Considerando que a variação da concentração do produto principal da reação de maior energia de ativação é igual a 8 mol/L a cada quatro minutos, qual será a velocidade de consumo de oxigênio, O2, em relação à velocidade de formação do produto principal?</texto_geral_exercicio>
+        <exercicio_lista_letra>
+          <b>a)</b>
+          3 mol/L ? min
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>b)</b>
+          2,5 mol/L ? min
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>c)</b>
+          2 mol/L ? min
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>d)	4 mol/L ? min</exercicio_lista_letra>
+        <titulo_resolucao>Resolução:</titulo_resolucao>
+        <texto_resolucao>Alternativa: B</texto_resolucao>
+        <texto_resolucao>Com base no enunciado, as reações de combustão podem ser representadas por:</texto_resolucao>
+        <texto_resolucao>(I) 4 NH3 1 5 O2 &#10141; 6 H2O 1 4 NO</texto_resolucao>
+        <texto_resolucao>(II) 4 NH3 1 3 O2 &#10141; 6 H2O 1 2 N2</texto_resolucao>
+        <texto_resolucao>De acordo com o gráfico da questão, nota-se que a reação (I) tem energia de ativação maior do que a (II):</texto_resolucao>
+        <imagem>I004-2020-EM-QUI-2S-L1-FA-U4-C11.png</imagem>
+        <texto_resolucao>A equação química da reação (I) é dada por: 4 NH3 1 5 O2 &#10141; 6 H2O 1 4 NO, e a velocidade de consumo do oxigênio pode ser calculada:</texto_resolucao>
+        <imagem>QUI_2_L4_FA_U4_C11_009.png</imagem>
+        <imagem>QUI_2_L4_FA_U4_C11_010.png</imagem>
+      </secao_01_texto>
+    </secao_01>
+  </pg44-45>
+  <pg45-46>
+    <secao_02>
+      <secao_02_texto>
+        <secao_02_titulo1>
+          <imagem>01_TITULO_1</imagem>
+          Aplicando conhecimentos
+        </secao_02_titulo1>
+        <exercicio_enunciado>1	A reação de decomposição do bicarbonato de sódio gera carbonato de sódio, gás carbônico e água. Considerando, inicialmente, que 200 mL de uma solução contendo 0,6 mol de bicarbonato se decompõe e que, após 1 hora, a concentração de bicarbonato no meio era de 1 mol/L, qual é a velocidade de consumo do bicarbonato de sódio nessa reação em mol/L ? min?</exercicio_enunciado>
+        <exercicio_enunciado>2	Com base na reação citada no exercício anterior, quais são as velocidades de formação dos produtos?</exercicio_enunciado>
+        <exercicio_enunciado>3	Uma reação de neutralização é caracterizada pela presença de uma substância de caráter ácido e outra de caráter básico formando sal e água. A neutralização do hidróxido de alumínio pela ação do ácido sulfúrico está representada a seguir.</exercicio_enunciado>
+        <texto_geral_exercicio>2 AL(OH)3 1 3 H2SO4 &#10141; AL2(SO4)3 1 6 H2O</texto_geral_exercicio>
+        <texto_geral_exercicio>Qual é a velocidade média em mol/L · s da reação sabendo que durante os 10 primeiros minutos foram consumidos 1,2 mol/L do ácido?</texto_geral_exercicio>
+      </secao_02_texto>
+      <secao_02_texto>
+        <exercicio_enunciado>4	Observe as representações gráficas a seguir.</exercicio_enunciado>
+        <imagem>I005-2020-EM-QUI-2S-L1-FA-U4-C11.png</imagem>
+        <imagem>I006-2020-EM-QUI-2S-L1-FA-U4-C11.png</imagem>
+        <texto_geral_exercicio>Qual dos gráficos representa a reação mais lenta?</texto_geral_exercicio>
+        <exercicio_enunciado>
+          5
+          <b>Unisc-RS 2016</b>
+          Considerando que em uma reação hipotética A &#10141; B 1 C observou-se a seguinte variação na concentração de A em função do tempo:
+        </exercicio_enunciado>
+        <tabela xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" aid:table="table" aid:trows="2" aid:tcols="6">
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="56.692913385826785">A (mol/L)</Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="31.181102362204726">0,240</Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="31.181102362204726">0,200</Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="31.181102362204726">0,180</Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="31.181102362204726">0,162</Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="31.181102362204726">0,153</Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="56.692913385826785">Tempo (s)</Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="31.181102362204726">0</Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="31.181102362204726">180</Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="31.181102362204726">300</Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="31.181102362204726">540</Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="31.181102362204726">840</Cell>
+        </tabela>
+        <texto_geral_exercicio>A velocidade média (vm) da reação no intervalo de 180 a 300 segundos é</texto_geral_exercicio>
+        <exercicio_lista_letra>
+          <b>a)</b>
+          1,66 ? 10–4 mol/L ? s
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>b)</b>
+          3,32 ? 10–4 mol/L ? s
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>c)</b>
+          1,66 ? 10–2 mol/L ? s
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>d)</b>
+          0,83 ? 10–2 mol/L ? s
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>e)</b>
+          0,83 ? 10–4 mol/L ? s
+        </exercicio_lista_letra>
+      </secao_02_texto>
+    </secao_02>
+  </pg45-46>
+  <pg46-47>
+    <secao_03>
+      <secao_03_texto>
+        <secao_03_titulo1>Consolidando saberes</secao_03_titulo1>
+        <exercicio_enunciado>
+          1
+          <b>UFJF-MG 2021</b>
+          Quando o ferro metálico entra em contato com ácido clorídrico (HCL), à temperatura constante, reage rapidamente formando o gás hidrogênio (H2), como é indicado pela equação:
+        </exercicio_enunciado>
+        <texto_geral_exercicio>2 Fe(s) + 6 HCL(aq) &#10141; 2 FeCL3(aq) + 3 H2(g)</texto_geral_exercicio>
+        <texto_geral_exercicio>Sabendo-se que em 30 segundos de reação foram consumidos 12 mol de HCL, qual o número de mols do gás hidrogênio (H2) produzidos em 5 minutos?</texto_geral_exercicio>
+        <exercicio_lista_letra>
+          <b>a)</b>
+          60 mol
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>b)</b>
+          30 mol
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>c)</b>
+          6 mol
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>d)</b>
+          18 mol
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>e)</b>
+          11 mol
+        </exercicio_lista_letra>
+        <exercicio_enunciado>
+          2
+          <b>Unicamp-SP 2018 (Adapt.)</b>
+          Graças a sua alta conversão energética e à baixa geração de ­resíduos, o gás hidrogênio é considerado um excelente combustível. Sua obtenção a partir da fermentação anaeróbia de biomassas como bagaço de cana, glicerol, madeira e resíduos do processamento da mandioca, abundantes e de baixo custo, parece ser uma boa alternativa tecnológica para o Brasil. A velocidade da fermentação, bem como os diferentes produtos formados e suas respectivas quantidades, dependem principalmente do tipo de substrato e do tipo de microrganismo que promove a fermentação. As equações e a figura a seguir ilustram aspectos de uma fermentação de 1 litro de solução de glicose efetuada pela bactéria
+          <i>Clostridium butyricum</i>
+          .
+        </exercicio_enunciado>
+        <texto_geral_exercicio>Equação 1:</texto_geral_exercicio>
+        <texto_geral_exercicio>C6H12O6(aq) 1 2 H2O(L) &#10141;</texto_geral_exercicio>
+        <texto_geral_exercicio>&#10141; 2 CH3COOH(aq) 1 4 H2(g) 1 2 CO2(g)</texto_geral_exercicio>
+        <texto_geral_exercicio>Equação 2:</texto_geral_exercicio>
+        <texto_geral_exercicio>C6H12O6(aq) 1 2 H2O(L) &#10141;</texto_geral_exercicio>
+        <texto_geral_exercicio>CH3CH2CH2COOH(aq) 12 H2(g) 1 2 CO2(g)</texto_geral_exercicio>
+        <imagem>Q003-2020-EM-QUI-2S-L1-FA-U4-C11.png</imagem>
+        <texto_geral_exercicio>Levando em conta as informações presentes no texto e na figura, e considerando que a fermentação tenha ocorrido, concomitantemente, pelas duas reações indicadas, qual ácido estava presente em maior concentração (mol/L) ao final da fermentação, o butanoico ou o etanoico? Justifique sua resposta.</texto_geral_exercicio>
+        <texto_geral_exercicio>Dados: massa molar da glicose: 180 g/mol; volume molar do hidrogênio: 25 L/mol.</texto_geral_exercicio>
+        <exercicio_enunciado>
+          3
+          <b>USCS-SP 2016</b>
+          Um estudo para verificar o efeito da cinética de degradação e o tempo de prateleira de um suco de manga analisou a velocidade de decomposição da vitamina C em três temperaturas diferentes: 25 °C, 35 °C e 45 °C. O gráfico mostra o resultado da análise.
+        </exercicio_enunciado>
+      </secao_03_texto>
+      <secao_03_texto>
+        <imagem>Q004-2020-EM-QUI-2S-L1-FA-U4-C11.png</imagem>
+        <p class="img-credit">(www.redalyc.org)</p>
+        <texto_geral_exercicio>O estudo considerou o tempo de prateleira como sendo o tempo de meia-vida da concentração de vitamina C.</texto_geral_exercicio>
+        <exercicio_lista_letra>
+          <b>a)</b>
+          Determine, utilizando o gráfico acima, o tempo de prateleira aproximado para um suco de manga armazenado a uma temperatura de 35 °C.
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>b)</b>
+          Para o experimento cuja velocidade de degradação foi maior, calcule a velocidade média de degradação da vitamina C, em mg/L ? dia, nos primeiros 60 dias.
+        </exercicio_lista_letra>
+        <exercicio_enunciado>
+          4
+          <b>Unicamp-SP 2021</b>
+          Um estudo recente avaliou como determinados plásticos se degradam na água do mar quando expostos à luz ultravioleta. Os plásticos estudados foram: NPG (plásticos diversos do Giro do Pacífico Norte), EPS (poliestireno expandido), PP (polipropileno) e PE (polietileno). Considerando que somente 2% do plástico despejado no mar está à deriva, esse estudo tentou descobrir para onde vão os microplásticos no ambiente marinho. Um dos resultados do estudo é mostrado nos gráficos abaixo. Nesses gráficos, observam-se as produções de carbono orgânico dissolvido (DOC) por grama de carbono na amostra de plástico utilizado. O DOC foi identificado como o maior subproduto da fotodegradação de plásticos.
+        </exercicio_enunciado>
+        <imagem>lumen_2022_3s_l5_qui_fa_u2_cap4_q001.png</imagem>
+        <texto_geral_exercicio>Os resultados mostram que</texto_geral_exercicio>
+        <exercicio_lista_letra>
+          <b>a)</b>
+          para os quatro plásticos, a velocidade de degradação aumenta com o tempo de exposição; após 50 dias, a maior degradação foi a do PP.
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>b)</b>
+          para três plásticos, a velocidade de degradação aumenta com o tempo de exposição; após 50 dias, a maior degradação foi a do EPS.
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>c)</b>
+          para apenas um plástico, a velocidade de degradação não aumenta com o tempo de exposição; após 50 dias, a maior degradação foi a do PP.
+        </exercicio_lista_letra>
+        <exercicio_lista_letra>
+          <b>d)</b>
+          duas velocidades de degradação aumentam com o tempo e duas permanecem constantes; após 50 dias, a maior degradação foi a do EPS.
+        </exercicio_lista_letra>
+      </secao_03_texto>
+    </secao_03>
+  </pg46-47>
+  <pg47>
+    <secao_04>
+      <secao_04_texto>
+        <secao_04_titulo1>superação</secao_04_titulo1>
+        <secao_04_texto>
+          <b>Fuvest-SP 2020</b>
+          Os movimentos das moléculas antes e depois de uma reação química obedecem aos princípios físicos de colisões. Para tanto, cada átomo é representado como um corpo pontual com uma certa massa, ocupando uma posição no espaço e com uma determinada velocidade (representada na forma vetorial). Costumeiramente, os corpos pontuais são representados como esferas com diâmetros proporcionais à massa atômica. As colisões ocorrem conservando a quantidade de movimento. Considerando um referencial no qual as moléculas neutras encontram-se paradas antes e após a colisão, a alternativa que melhor representa o arranjo de íons e moléculas instantes antes e instantes depois de uma colisão que leva à reação: F– 1 CH3CL &#10141; CH3F 1 CL– é
+        </secao_04_texto>
+        <secao_04_texto>Note e adote: Massas atômicas: H 5 1 u.m.a., C 5 12 u.m.a., F 5 19 u.m.a. e CL 5 35 u.m.a.</secao_04_texto>
+        <secao_04_texto>Considere que apenas o isótopo de cloro CL 5 35 u.m.a. participa da reação.</secao_04_texto>
+        <imagem>Q008-2020-EM-QUI-2S-L1-FA-U4-C11.png</imagem>
+      </secao_04_texto>
+    </secao_04>
+  </pg47>
+</Root>
